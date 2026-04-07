@@ -37,10 +37,6 @@ kepuasan_pelayanan['Sangat Memuaskan'] = fuzz.trapmf(kepuasan_pelayanan.universe
 # kepuasan_pelayanan.view()
 # input("Tekan ENTER untuk melanjutkan")
 
-# ==============================================================================
-# 81 FUZZY RULES
-# ==============================================================================
-
 aturan1 = ctrl.Rule(kejelasan_informasi['Tidak Memuaskan'] & kejelasan_prasyarat['Tidak Memuaskan'] & kemampuan_petugas['Tidak Memuaskan'] & ketersediaan_sarpras['Tidak Memuaskan'], kepuasan_pelayanan['Kurang Memuaskan'])
 aturan2 = ctrl.Rule(kejelasan_informasi['Tidak Memuaskan'] & kejelasan_prasyarat['Tidak Memuaskan'] & kemampuan_petugas['Tidak Memuaskan'] & ketersediaan_sarpras['Cukup Memuaskan'], kepuasan_pelayanan['Cukup Memuaskan'])
 aturan3 = ctrl.Rule(kejelasan_informasi['Tidak Memuaskan'] & kejelasan_prasyarat['Tidak Memuaskan'] & kemampuan_petugas['Tidak Memuaskan'] & ketersediaan_sarpras['Memuaskan'], kepuasan_pelayanan['Cukup Memuaskan'])

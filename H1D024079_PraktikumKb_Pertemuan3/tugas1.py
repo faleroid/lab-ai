@@ -74,4 +74,4 @@ print("--------------------------------------")
 print(f"Jumlah Stok Makanan yang Direkomendasikan: {hasil_stok:.2f} unit")
  
 # Visualisasi (Opsional, butuh matplotlib)
-# stok_makanan.view(sim=stok_simulation)
+stok_makanan.view(sim=stok_simulation)

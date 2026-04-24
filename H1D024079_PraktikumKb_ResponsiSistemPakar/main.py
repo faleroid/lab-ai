@@ -18,10 +18,7 @@ def diagnosa_pakar(suhu, kepadatan):
     return rules_pakar.get((suhu, kepadatan), "Kondisi tidak terdefinisi dalam basis aturan")
 
 st.set_page_config(page_title="Pakar Kenyamanan", page_icon="🧠")
-st.title("🧠 Sistem Pakar Kenyamanan Transportasi")
-st.write("Metode ini menggunakan penalaran Rule-Based (Forward Chaining) berdasarkan fakta kondisi di lapangan.")
-
-st.markdown("---")
+st.title("Sistem Pakar Kenyamanan Transportasi")
 
 fakta_suhu = st.selectbox(
     "Pilih Fakta Kondisi Suhu Kabin:",

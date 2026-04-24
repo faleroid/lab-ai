@@ -17,7 +17,7 @@ rules_pakar = {
 def diagnosa_pakar(suhu, kepadatan):
     return rules_pakar.get((suhu, kepadatan), "Kondisi tidak terdefinisi dalam basis aturan")
 
-st.set_page_config(page_title="Pakar Kenyamanan", page_icon="🧠")
+st.set_page_config(page_title="Pakar Kenyamanan")
 st.title("Sistem Pakar Kenyamanan Transportasi")
 
 fakta_suhu = st.selectbox(

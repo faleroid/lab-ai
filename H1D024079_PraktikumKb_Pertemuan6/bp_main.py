@@ -7,5 +7,5 @@ t = np.array([[-1], [1], [1], [-1]])
 
 # Pemanggilan model Backpropagation
 # Parameter: alpha=0.3, epoch=30, target_error=0.001
-model = b.Backpropagation(alpha=0.2, epoch=50, target_error=0.001)
+model = b.Backpropagation(alpha=0.2, epoch=200, target_error=0.001)
 model.fit(X, t)

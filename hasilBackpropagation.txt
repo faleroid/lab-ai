@@ -13,1477 +13,5827 @@ Target :
  [-1]]
 
 Bobot awal hidden layer :
-[[0.33987427 0.30899262]
- [0.78202182 0.33961195]]
+[[0.3978598  0.40613749]
+ [0.22342264 0.38133793]]
 
 Bias awal hidden layer :
-[[0.40389621 0.45053374]]
+[[0.44079017 0.52229388]]
 
 Bobot awal output layer :
-[[0.93296466]
- [0.05222834]]
+[[0.2485241 ]
+ [0.78852719]]
 
 Bias awal output layer :
-[[0.59907447]]
+[[0.17088266]]
 
 Learning rate: 0.2
-Max Epoch : 50
+Max Epoch : 200
 
 ----------------------------------
-Epoch 1/50
+Epoch 1/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.90324865]]
-Error: [[-1.90324865]]
-Delta Output (d_y): [[-0.35046776]]
+Aktivasi Output: [[0.78094743]]
+Error: [[-1.78094743]]
+Delta Output (d_y): [[-0.69478519]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.44979133]]
-Error: [[0.55020867]]
-Delta Output (d_y): [[0.43889472]]
+Aktivasi Output: [[0.40188027]]
+Error: [[0.59811973]]
+Delta Output (d_y): [[0.50151876]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.82880165]]
-Error: [[0.17119835]]
-Delta Output (d_y): [[0.05360012]]
+Aktivasi Output: [[0.43125538]]
+Error: [[0.56874462]]
+Delta Output (d_y): [[0.46296881]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[0.13615895]]
-Error: [[-1.13615895]]
-Delta Output (d_y): [[-1.11509541]]
+Aktivasi Output: [[0.09734117]]
+Error: [[-1.09734117]]
+Delta Output (d_y): [[-1.08694353]]
 ----
-Sum Square Error (SSE) epoch ke-1: 1.3113127651354297
+Sum Square Error (SSE) epoch ke-1: 1.2642872622824655
 
 ----------------------------------
-Epoch 2/50
+Epoch 2/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.88533213]]
-Error: [[-1.88533213]]
-Delta Output (d_y): [[-0.40758432]]
+Aktivasi Output: [[0.7210763]]
+Error: [[-1.7210763]]
+Delta Output (d_y): [[-0.82620091]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.34048095]]
-Error: [[0.65951905]]
-Delta Output (d_y): [[0.5830628]]
+Aktivasi Output: [[0.15638962]]
+Error: [[0.84361038]]
+Delta Output (d_y): [[0.8229776]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.72032967]]
-Error: [[0.27967033]]
-Delta Output (d_y): [[0.13455643]]
+Aktivasi Output: [[0.25640497]]
+Error: [[0.74359503]]
+Delta Output (d_y): [[0.69470848]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.21186912]]
-Error: [[-0.78813088]]
-Delta Output (d_y): [[-0.75275284]]
+Aktivasi Output: [[-0.19234998]]
+Error: [[-0.80765002]]
+Delta Output (d_y): [[-0.77776817]]
 ----
-Sum Square Error (SSE) epoch ke-2: 1.172202098094002
+Sum Square Error (SSE) epoch ke-2: 1.2197535544422657
 
 ----------------------------------
-Epoch 3/50
+Epoch 3/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.88378358]]
-Error: [[-1.88378358]]
-Delta Output (d_y): [[-0.41241029]]
+Aktivasi Output: [[0.7403617]]
+Error: [[-1.7403617]]
+Delta Output (d_y): [[-0.78640775]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.45157444]]
-Error: [[0.54842556]]
-Delta Output (d_y): [[0.43659091]]
+Aktivasi Output: [[0.1933253]]
+Error: [[0.8066747]]
+Delta Output (d_y): [[0.7765255]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.6324239]]
-Error: [[0.3675761]]
-Delta Output (d_y): [[0.22056037]]
+Aktivasi Output: [[0.2935673]]
+Error: [[0.7064327]]
+Delta Output (d_y): [[0.64555108]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.38852808]]
-Error: [[-0.61147192]]
-Delta Output (d_y): [[-0.51916775]]
+Aktivasi Output: [[-0.30962249]]
+Error: [[-0.69037751]]
+Delta Output (d_y): [[-0.62419372]]
 ----
-Sum Square Error (SSE) epoch ke-3: 1.0896053247120072
+Sum Square Error (SSE) epoch ke-3: 1.1638127974249366
 
 ----------------------------------
-Epoch 4/50
+Epoch 4/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.88419728]]
-Error: [[-1.88419728]]
-Delta Output (d_y): [[-0.41112276]]
+Aktivasi Output: [[0.76577662]]
+Error: [[-1.76577662]]
+Delta Output (d_y): [[-0.7303008]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.52201756]]
-Error: [[0.47798244]]
-Delta Output (d_y): [[0.34773111]]
+Aktivasi Output: [[0.26713897]]
+Error: [[0.73286103]]
+Delta Output (d_y): [[0.68056169]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.59784252]]
-Error: [[0.40215748]]
-Delta Output (d_y): [[0.25842009]]
+Aktivasi Output: [[0.35685525]]
+Error: [[0.64314475]]
+Delta Output (d_y): [[0.56124306]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.48054608]]
-Error: [[-0.51945392]]
-Delta Output (d_y): [[-0.39949926]]
+Aktivasi Output: [[-0.39173506]]
+Error: [[-0.60826494]]
+Delta Output (d_y): [[-0.51492282]]
 ----
-Sum Square Error (SSE) epoch ke-4: 1.052557398858926
+Sum Square Error (SSE) epoch ke-4: 1.1096684388578264
 
 ----------------------------------
-Epoch 5/50
+Epoch 5/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.88341821]]
-Error: [[-1.88341821]]
-Delta Output (d_y): [[-0.41354641]]
+Aktivasi Output: [[0.78470792]]
+Error: [[-1.78470792]]
+Delta Output (d_y): [[-0.68574455]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.55655447]]
-Error: [[0.44344553]]
-Delta Output (d_y): [[0.306087]]
+Aktivasi Output: [[0.33111114]]
+Error: [[0.66888886]]
+Delta Output (d_y): [[0.59555551]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.59742024]]
-Error: [[0.40257976]]
-Delta Output (d_y): [[0.25889464]]
+Aktivasi Output: [[0.40994304]]
+Error: [[0.59005696]]
+Delta Output (d_y): [[0.49089595]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.53723409]]
-Error: [[-0.46276591]]
-Delta Output (d_y): [[-0.3292022]]
+Aktivasi Output: [[-0.45653168]]
+Error: [[-0.54346832]]
+Delta Output (d_y): [[-0.43019801]]
 ----
-Sum Square Error (SSE) epoch ke-5: 1.0300327081039269
+Sum Square Error (SSE) epoch ke-5: 1.0690299204187226
 
 ----------------------------------
-Epoch 6/50
+Epoch 6/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.88038303]]
-Error: [[-1.88038303]]
-Delta Output (d_y): [[-0.42294651]]
+Aktivasi Output: [[0.79616158]]
+Error: [[-1.79616158]]
+Delta Output (d_y): [[-0.65762278]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.57371443]]
-Error: [[0.42628557]]
-Delta Output (d_y): [[0.28597442]]
+Aktivasi Output: [[0.37737391]]
+Error: [[0.62262609]]
+Delta Output (d_y): [[0.53395724]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.60410026]]
-Error: [[0.39589974]]
-Delta Output (d_y): [[0.25142123]]
+Aktivasi Output: [[0.44930197]]
+Error: [[0.55069803]]
+Delta Output (d_y): [[0.43952737]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.57632811]]
-Error: [[-0.42367189]]
-Delta Output (d_y): [[-0.28294754]]
+Aktivasi Output: [[-0.50681729]]
+Error: [[-0.49318271]]
+Delta Output (d_y): [[-0.36650194]]
 ----
-Sum Square Error (SSE) epoch ke-6: 1.0134485478348076
+Sum Square Error (SSE) epoch ke-6: 1.0400892913143394
 
 ----------------------------------
-Epoch 7/50
+Epoch 7/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.87476385]]
-Error: [[-1.87476385]]
-Delta Output (d_y): [[-0.44017243]]
+Aktivasi Output: [[0.80134016]]
+Error: [[-1.80134016]]
+Delta Output (d_y): [[-0.64461669]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.57980209]]
-Error: [[0.42019791]]
-Delta Output (d_y): [[0.27893979]]
+Aktivasi Output: [[0.40719708]]
+Error: [[0.59280292]]
+Delta Output (d_y): [[0.49451059]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.60781492]]
-Error: [[0.39218508]]
-Delta Output (d_y): [[0.24729662]]
+Aktivasi Output: [[0.47662305]]
+Error: [[0.52337695]]
+Delta Output (d_y): [[0.40448165]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.60461745]]
-Error: [[-0.39538255]]
-Delta Output (d_y): [[-0.25084561]]
+Aktivasi Output: [[-0.5453534]]
+Error: [[-0.4546466]]
+Delta Output (d_y): [[-0.31943]]
 ----
-Sum Square Error (SSE) epoch ke-7: 1.0003605703674938
+Sum Square Error (SSE) epoch ke-7: 1.0192171579171398
 
 ----------------------------------
-Epoch 8/50
+Epoch 8/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.86647783]]
-Error: [[-1.86647783]]
-Delta Output (d_y): [[-0.46515646]]
+Aktivasi Output: [[0.80158831]]
+Error: [[-1.80158831]]
+Delta Output (d_y): [[-0.64398887]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.57743575]]
-Error: [[0.42256425]]
-Delta Output (d_y): [[0.28166779]]
+Aktivasi Output: [[0.42382723]]
+Error: [[0.57617277]]
+Delta Output (d_y): [[0.47267513]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.60646789]]
-Error: [[0.39353211]]
-Delta Output (d_y): [[0.2487897]]
+Aktivasi Output: [[0.49442831]]
+Error: [[0.50557169]]
+Delta Output (d_y): [[0.38197997]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.62542243]]
-Error: [[-0.37457757]]
-Delta Output (d_y): [[-0.22806034]]
+Aktivasi Output: [[-0.57489232]]
+Error: [[-0.42510768]]
+Delta Output (d_y): [[-0.28460909]]
 ----
-Sum Square Error (SSE) epoch ke-8: 0.9893689757236842
+Sum Square Error (SSE) epoch ke-8: 1.0035036965419069
 
 ----------------------------------
-Epoch 9/50
+Epoch 9/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.85541186]]
-Error: [[-1.85541186]]
-Delta Output (d_y): [[-0.49775237]]
+Aktivasi Output: [[0.79792308]]
+Error: [[-1.79792308]]
+Delta Output (d_y): [[-0.65321917]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.56786851]]
-Error: [[0.43213149]]
-Delta Output (d_y): [[0.29278004]]
+Aktivasi Output: [[0.43021332]]
+Error: [[0.56978668]]
+Delta Output (d_y): [[0.46432856]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.59999608]]
-Error: [[0.40000392]]
-Delta Output (d_y): [[0.25600438]]
+Aktivasi Output: [[0.50497101]]
+Error: [[0.49502899]]
+Delta Output (d_y): [[0.36879872]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.64064327]]
-Error: [[-0.35935673]]
-Delta Output (d_y): [[-0.21186817]]
+Aktivasi Output: [[-0.59766959]]
+Error: [[-0.40233041]]
+Delta Output (d_y): [[-0.25861439]]
 ----
-Sum Square Error (SSE) epoch ke-9: 0.9796077914979495
+Sum Square Error (SSE) epoch ke-9: 0.9910269332874126
 
 ----------------------------------
-Epoch 10/50
+Epoch 10/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.84140284]]
-Error: [[-1.84140284]]
-Delta Output (d_y): [[-0.53776562]]
+Aktivasi Output: [[0.7910476]]
+Error: [[-1.7910476]]
+Delta Output (d_y): [[-0.67028827]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.55181095]]
-Error: [[0.44818905]]
-Delta Output (d_y): [[0.31171758]]
+Aktivasi Output: [[0.42863064]]
+Error: [[0.57136936]]
+Delta Output (d_y): [[0.46639497]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.58878162]]
-Error: [[0.41121838]]
-Delta Output (d_y): [[0.26866386]]
+Aktivasi Output: [[0.51004283]]
+Error: [[0.48995717]]
+Delta Output (d_y): [[0.3624979]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.65145677]]
-Error: [[-0.34854323]]
-Delta Output (d_y): [[-0.2006229]]
+Aktivasi Output: [[-0.61535264]]
+Error: [[-0.38464736]]
+Delta Output (d_y): [[-0.23899722]]
 ----
-Sum Square Error (SSE) epoch ke-10: 0.9705551944373945
+Sum Square Error (SSE) epoch ke-10: 0.9805815185107498
 
 ----------------------------------
-Epoch 11/50
+Epoch 11/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.82430008]]
-Error: [[-1.82430008]]
-Delta Output (d_y): [[-0.58474177]]
+Aktivasi Output: [[0.78145668]]
+Error: [[-1.78145668]]
+Delta Output (d_y): [[-0.69356643]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.52989039]]
-Error: [[0.47010961]]
-Delta Output (d_y): [[0.33811043]]
+Aktivasi Output: [[0.42084109]]
+Error: [[0.57915891]]
+Delta Output (d_y): [[0.47658569]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.57335256]]
-Error: [[0.42664744]]
-Delta Output (d_y): [[0.28639428]]
+Aktivasi Output: [[0.51103647]]
+Error: [[0.48896353]]
+Delta Output (d_y): [[0.36126665]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.65862029]]
-Error: [[-0.34137971]]
-Delta Output (d_y): [[-0.19329578]]
+Aktivasi Output: [[-0.62914813]]
+Error: [[-0.37085187]]
+Delta Output (d_y): [[-0.22405855]]
 ----
-Sum Square Error (SSE) epoch ke-11: 0.9619104904352427
+Sum Square Error (SSE) epoch ke-11: 0.971407350985434
 
 ----------------------------------
-Epoch 12/50
+Epoch 12/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.80405819]]
-Error: [[-1.80405819]]
-Delta Output (d_y): [[-0.6377173]]
+Aktivasi Output: [[0.76952392]]
+Error: [[-1.76952392]]
+Delta Output (d_y): [[-0.72167014]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.50302337]]
-Error: [[0.49697663]]
-Delta Output (d_y): [[0.37122539]]
+Aktivasi Output: [[0.40831306]]
+Error: [[0.59168694]]
+Delta Output (d_y): [[0.49304115]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.5543604]]
-Error: [[0.4456396]]
-Delta Output (d_y): [[0.30868767]]
+Aktivasi Output: [[0.50902726]]
+Error: [[0.49097274]]
+Delta Output (d_y): [[0.3637574]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.66262496]]
-Error: [[-0.33737504]]
-Delta Output (d_y): [[-0.18924316]]
+Aktivasi Output: [[-0.63991189]]
+Error: [[-0.36008811]]
+Delta Output (d_y): [[-0.21263663]]
 ----
-Sum Square Error (SSE) epoch ke-12: 0.953507075798209
+Sum Square Error (SSE) epoch ke-12: 0.9630065009631628
 
 ----------------------------------
-Epoch 13/50
+Epoch 13/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.7808297]]
-Error: [[-1.7808297]]
-Delta Output (d_y): [[-0.6950667]]
+Aktivasi Output: [[0.75555044]]
+Error: [[-1.75555044]]
+Delta Output (d_y): [[-0.75338311]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.47273521]]
-Error: [[0.52726479]]
-Delta Output (d_y): [[0.4094324]]
+Aktivasi Output: [[0.39238543]]
+Error: [[0.60761457]]
+Delta Output (d_y): [[0.51406239]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.53253312]]
-Error: [[0.46746688]]
-Delta Output (d_y): [[0.33489724]]
+Aktivasi Output: [[0.50480764]]
+Error: [[0.49519236]]
+Delta Output (d_y): [[0.36900211]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.66377086]]
-Error: [[-0.33622914]]
-Delta Output (d_y): [[-0.18808935]]
+Aktivasi Output: [[-0.64822188]]
+Error: [[-0.35177812]]
+Delta Output (d_y): [[-0.2039639]]
 ----
-Sum Square Error (SSE) epoch ke-13: 0.9452344732914818
+Sum Square Error (SSE) epoch ke-13: 0.95502903508107
 
 ----------------------------------
-Epoch 14/50
+Epoch 14/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.75500662]]
-Error: [[-1.75500662]]
-Delta Output (d_y): [[-0.75459143]]
+Aktivasi Output: [[0.73977659]]
+Error: [[-1.73977659]]
+Delta Output (d_y): [[-0.78765009]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.44133603]]
-Error: [[0.55866397]]
-Delta Output (d_y): [[0.4498488]]
+Aktivasi Output: [[0.37436622]]
+Error: [[0.62563378]]
+Delta Output (d_y): [[0.53795116]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.50849666]]
-Error: [[0.49150334]]
-Delta Output (d_y): [[0.36441589]]
+Aktivasi Output: [[0.49886875]]
+Error: [[0.50113125]]
+Delta Output (d_y): [[0.3764147]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.66218954]]
-Error: [[-0.33781046]]
-Delta Output (d_y): [[-0.18968226]]
+Aktivasi Output: [[-0.65441305]]
+Error: [[-0.34558695]]
+Delta Output (d_y): [[-0.19758711]]
 ----
-Sum Square Error (SSE) epoch ke-14: 0.9369612757540456
+Sum Square Error (SSE) epoch ke-14: 0.9472007663686294
 
 ----------------------------------
-Epoch 15/50
+Epoch 15/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.72715272]]
-Error: [[-1.72715272]]
-Delta Output (d_y): [[-0.81391886]]
+Aktivasi Output: [[0.72236289]]
+Error: [[-1.72236289]]
+Delta Output (d_y): [[-0.82361991]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.41182012]]
-Error: [[0.58817988]]
-Delta Output (d_y): [[0.48842704]]
+Aktivasi Output: [[0.35558921]]
+Error: [[0.64441079]]
+Delta Output (d_y): [[0.56292911]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.4824932]]
-Error: [[0.5175068]]
-Delta Output (d_y): [[0.39703137]]
+Aktivasi Output: [[0.49134308]]
+Error: [[0.50865692]]
+Delta Output (d_y): [[0.38585797]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.65783315]]
-Error: [[-0.34216685]]
-Delta Output (d_y): [[-0.19409604]]
+Aktivasi Output: [[-0.6585822]]
+Error: [[-0.3414178]]
+Delta Output (d_y): [[-0.19333448]]
 ----
-Sum Square Error (SSE) epoch ke-15: 0.9284758828120183
+Sum Square Error (SSE) epoch ke-15: 0.9392742890612057
 
 ----------------------------------
-Epoch 16/50
+Epoch 16/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.69781447]]
-Error: [[-1.69781447]]
-Delta Output (d_y): [[-0.87107214]]
+Aktivasi Output: [[0.70335049]]
+Error: [[-1.70335049]]
+Delta Output (d_y): [[-0.86069974]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.38744625]]
-Error: [[0.61255375]]
-Delta Output (d_y): [[0.52060049]]
+Aktivasi Output: [[0.33746527]]
+Error: [[0.66253473]]
+Delta Output (d_y): [[0.58708342]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.45418102]]
-Error: [[0.54581898]]
-Delta Output (d_y): [[0.43322722]]
+Aktivasi Output: [[0.48192752]]
+Error: [[0.51807248]]
+Delta Output (d_y): [[0.39774801]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.65047128]]
-Error: [[-0.34952872]]
-Delta Output (d_y): [[-0.20163861]]
+Aktivasi Output: [[-0.66057216]]
+Error: [[-0.33942784]]
+Delta Output (d_y): [[-0.19131661]]
 ----
-Sum Square Error (SSE) epoch ke-16: 0.9194711926425726
+Sum Square Error (SSE) epoch ke-16: 0.9309913815444538
 
 ----------------------------------
-Epoch 17/50
+Epoch 17/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.66728324]]
-Error: [[-1.66728324]]
-Delta Output (d_y): [[-0.92489716]]
+Aktivasi Output: [[0.68261356]]
+Error: [[-1.68261356]]
+Delta Output (d_y): [[-0.89858081]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.37110043]]
-Error: [[0.62889957]]
-Delta Output (d_y): [[0.54229033]]
+Aktivasi Output: [[0.32156504]]
+Error: [[0.67843496]]
+Delta Output (d_y): [[0.60828202]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.42278878]]
-Error: [[0.57721122]]
-Delta Output (d_y): [[0.47403451]]
+Aktivasi Output: [[0.46980971]]
+Error: [[0.53019029]]
+Delta Output (d_y): [[0.41316607]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.63976877]]
-Error: [[-0.36023123]]
-Delta Output (d_y): [[-0.21278712]]
+Aktivasi Output: [[-0.65994764]]
+Error: [[-0.34005236]]
+Delta Output (d_y): [[-0.19194905]]
 ----
-Sum Square Error (SSE) epoch ke-17: 0.909571854158078
+Sum Square Error (SSE) epoch ke-17: 0.9220499329115031
 
 ----------------------------------
-Epoch 18/50
+Epoch 18/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.6354069]]
-Error: [[-1.6354069]]
-Delta Output (d_y): [[-0.97512456]]
+Aktivasi Output: [[0.6598157]]
+Error: [[-1.6598157]]
+Delta Output (d_y): [[-0.93720372]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.36453772]]
-Error: [[0.63546228]]
-Delta Output (d_y): [[0.55101712]]
+Aktivasi Output: [[0.30973556]]
+Error: [[0.69026444]]
+Delta Output (d_y): [[0.62404315]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.38783723]]
-Error: [[0.61216277]]
-Delta Output (d_y): [[0.52008265]]
+Aktivasi Output: [[0.45364455]]
+Error: [[0.54635545]]
+Delta Output (d_y): [[0.43391912]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.62550839]]
-Error: [[-0.37449161]]
-Delta Output (d_y): [[-0.22796774]]
+Aktivasi Output: [[-0.65598868]]
+Error: [[-0.34401132]]
+Delta Output (d_y): [[-0.19597597]]
 ----
-Sum Square Error (SSE) epoch ke-18: 0.8983388181795311
+Sum Square Error (SSE) epoch ke-18: 0.912075303208379
 
 ----------------------------------
-Epoch 19/50
+Epoch 19/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.60143984]]
-Error: [[-1.60143984]]
-Delta Output (d_y): [[-1.0221512]]
+Aktivasi Output: [[0.63437883]]
+Error: [[-1.63437883]]
+Delta Output (d_y): [[-0.97664513]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.36750241]]
-Error: [[0.63249759]]
-Delta Output (d_y): [[0.54707372]]
+Aktivasi Output: [[0.30415614]]
+Error: [[0.69584386]]
+Delta Output (d_y): [[0.63147067]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.35038776]]
-Error: [[0.64961224]]
-Delta Output (d_y): [[0.56985832]]
+Aktivasi Output: [[0.43171145]]
+Error: [[0.56828855]]
+Delta Output (d_y): [[0.46237389]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.60788571]]
-Error: [[-0.39211429]]
-Delta Output (d_y): [[-0.24721824]]
+Aktivasi Output: [[-0.64776448]]
+Error: [[-0.35223552]]
+Delta Output (d_y): [[-0.20443791]]
 ----
-Sum Square Error (SSE) epoch ke-19: 0.8851031114723424
+Sum Square Error (SSE) epoch ke-19: 0.9006036414466929
 
 ----------------------------------
-Epoch 20/50
+Epoch 20/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.56374338]]
-Error: [[-1.56374338]]
-Delta Output (d_y): [[-1.06677541]]
+Aktivasi Output: [[0.60545881]]
+Error: [[-1.60545881]]
+Delta Output (d_y): [[-1.01692913]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.37701048]]
-Error: [[0.62298952]]
-Delta Output (d_y): [[0.53443972]]
+Aktivasi Output: [[0.30704534]]
+Error: [[0.69295466]]
+Delta Output (d_y): [[0.62762509]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.3142517]]
-Error: [[0.6857483]]
-Delta Output (d_y): [[0.61802782]]
+Aktivasi Output: [[0.40255982]]
+Error: [[0.59744018]]
+Delta Output (d_y): [[0.50062236]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.58754865]]
-Error: [[-0.41245135]]
-Delta Output (d_y): [[-0.27006761]]
+Aktivasi Output: [[-0.63440478]]
+Error: [[-0.36559522]]
+Delta Output (d_y): [[-0.21845432]]
 ----
-Sum Square Error (SSE) epoch ke-20: 0.8684440380625488
+Sum Square Error (SSE) epoch ke-20: 0.8870696937821111
 
 ----------------------------------
-Epoch 21/50
+Epoch 21/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.51909359]]
-Error: [[-1.51909359]]
-Delta Output (d_y): [[-1.10976143]]
+Aktivasi Output: [[0.57186355]]
+Error: [[-1.57186355]]
+Delta Output (d_y): [[-1.05782028]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.38777229]]
-Error: [[0.61222771]]
-Delta Output (d_y): [[0.52016865]]
+Aktivasi Output: [[0.31954679]]
+Error: [[0.68045321]]
+Delta Output (d_y): [[0.61097202]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.28619439]]
-Error: [[0.71380561]]
-Delta Output (d_y): [[0.65533977]]
+Aktivasi Output: [[0.36658087]]
+Error: [[0.63341913]]
+Delta Output (d_y): [[0.5482993]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.56512249]]
-Error: [[-0.43487751]]
-Delta Output (d_y): [[-0.29599354]]
+Aktivasi Output: [[-0.61564724]]
+Error: [[-0.38435276]]
+Delta Output (d_y): [[-0.2386748]]
 ----
-Sum Square Error (SSE) epoch ke-21: 0.8452762532359549
+Sum Square Error (SSE) epoch ke-21: 0.8706796060790029
 
 ----------------------------------
-Epoch 22/50
+Epoch 22/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.46152049]]
-Error: [[-1.46152049]]
-Delta Output (d_y): [[-1.15021493]]
+Aktivasi Output: [[0.53169032]]
+Error: [[-1.53169032]]
+Delta Output (d_y): [[-1.09868974]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.39461955]]
-Error: [[0.60538045]]
-Delta Output (d_y): [[0.51110783]]
+Aktivasi Output: [[0.33976279]]
+Error: [[0.66023721]]
+Delta Output (d_y): [[0.58402025]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.27499377]]
-Error: [[0.72500623]]
-Delta Output (d_y): [[0.67018012]]
+Aktivasi Output: [[0.32838996]]
+Error: [[0.67161004]]
+Delta Output (d_y): [[0.59918363]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.54085332]]
-Error: [[-0.45914668]]
-Delta Output (d_y): [[-0.32483604]]
+Aktivasi Output: [[-0.59235435]]
+Error: [[-0.40764565]]
+Delta Output (d_y): [[-0.26460944]]
 ----
-Sum Square Error (SSE) epoch ke-22: 0.8097443335250614
+Sum Square Error (SSE) epoch ke-22: 0.8498058583311651
 
 ----------------------------------
-Epoch 23/50
+Epoch 23/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.3808259]]
-Error: [[-1.3808259]]
-Delta Output (d_y): [[-1.18056698]]
+Aktivasi Output: [[0.48129059]]
+Error: [[-1.48129059]]
+Delta Output (d_y): [[-1.1381635]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.3967811]]
-Error: [[0.6032189]]
-Delta Output (d_y): [[0.50825099]]
+Aktivasi Output: [[0.36177155]]
+Error: [[0.63822845]]
+Delta Output (d_y): [[0.55469797]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.29032997]]
-Error: [[0.70967003]]
-Delta Output (d_y): [[0.64985088]]
+Aktivasi Output: [[0.29815922]]
+Error: [[0.70184078]]
+Delta Output (d_y): [[0.6394479]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.51581919]]
-Error: [[-0.48418081]]
-Delta Output (d_y): [[-0.3553551]]
+Aktivasi Output: [[-0.56622522]]
+Error: [[-0.43377478]]
+Delta Output (d_y): [[-0.29470181]]
 ----
-Sum Square Error (SSE) epoch ke-23: 0.7521539554415446
+Sum Square Error (SSE) epoch ke-23: 0.8205746038689818
 
 ----------------------------------
-Epoch 24/50
+Epoch 24/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.26178093]]
-Error: [[-1.26178093]]
-Delta Output (d_y): [[-1.17531202]]
+Aktivasi Output: [[0.41345908]]
+Error: [[-1.41345908]]
+Delta Output (d_y): [[-1.1718305]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.40418937]]
-Error: [[0.59581063]]
-Delta Output (d_y): [[0.49847361]]
+Aktivasi Output: [[0.37889228]]
+Error: [[0.62110772]]
+Delta Output (d_y): [[0.53194189]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.34074097]]
-Error: [[0.65925903]]
-Delta Output (d_y): [[0.58271615]]
+Aktivasi Output: [[0.28960006]]
+Error: [[0.71039994]]
+Delta Output (d_y): [[0.65081998]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.49538476]]
-Error: [[-0.50461524]]
-Delta Output (d_y): [[-0.3807796]]
+Aktivasi Output: [[-0.53900944]]
+Error: [[-0.46099056]]
+Delta Output (d_y): [[-0.32705843]]
 ----
-Sum Square Error (SSE) epoch ke-24: 0.6590851080371602
+Sum Square Error (SSE) epoch ke-24: 0.7752054355981178
 
 ----------------------------------
-Epoch 25/50
+Epoch 25/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[0.0897429]]
-Error: [[-1.0897429]]
-Delta Output (d_y): [[-1.08096634]]
+Aktivasi Output: [[0.31573965]]
+Error: [[-1.31573965]]
+Delta Output (d_y): [[-1.18457156]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.4408746]]
-Error: [[0.5591254]]
-Delta Output (d_y): [[0.45044797]]
+Aktivasi Output: [[0.39162336]]
+Error: [[0.60837664]]
+Delta Output (d_y): [[0.51507061]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.4271273]]
-Error: [[0.5728727]]
-Delta Output (d_y): [[0.4683591]]
+Aktivasi Output: [[0.31554534]]
+Error: [[0.68445466]]
+Delta Output (d_y): [[0.61630429]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.49221726]]
-Error: [[-0.50778274]]
-Delta Output (d_y): [[-0.38475824]]
+Aktivasi Output: [[-0.51376538]]
+Error: [[-0.48623462]]
+Delta Output (d_y): [[-0.35789062]]
 ----
-Sum Square Error (SSE) epoch ke-25: 0.5215468108873664
+Sum Square Error (SSE) epoch ke-25: 0.7015488121570465
 
 ----------------------------------
-Epoch 26/50
+Epoch 26/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.12364246]]
-Error: [[-0.87635754]]
-Delta Output (d_y): [[-0.86296026]]
+Aktivasi Output: [[0.171968]]
+Error: [[-1.171968]]
+Delta Output (d_y): [[-1.1373094]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.51670795]]
-Error: [[0.48329205]]
-Delta Output (d_y): [[0.3542593]]
+Aktivasi Output: [[0.41615151]]
+Error: [[0.58384849]]
+Delta Output (d_y): [[0.48273639]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.52831953]]
-Error: [[0.47168047]]
-Delta Output (d_y): [[0.34002429]]
+Aktivasi Output: [[0.3821621]]
+Error: [[0.6178379]]
+Delta Output (d_y): [[0.52760399]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.51721093]]
-Error: [[-0.48278907]]
-Delta Output (d_y): [[-0.35363954]]
+Aktivasi Output: [[-0.49899585]]
+Error: [[-0.50100415]]
+Delta Output (d_y): [[-0.37625569]]
 ----
-Sum Square Error (SSE) epoch ke-26: 0.364285372366395
+Sum Square Error (SSE) epoch ke-26: 0.5867792203679125
 
 ----------------------------------
-Epoch 27/50
+Epoch 27/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.31410698]]
-Error: [[-0.68589302]]
-Delta Output (d_y): [[-0.61822062]]
+Aktivasi Output: [[-0.02304114]]
+Error: [[-0.97695886]]
+Delta Output (d_y): [[-0.97644019]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.59224253]]
-Error: [[0.40775747]]
-Delta Output (d_y): [[0.26473604]]
+Aktivasi Output: [[0.47623753]]
+Error: [[0.52376247]]
+Delta Output (d_y): [[0.40497199]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.60687399]]
-Error: [[0.39312601]]
-Delta Output (d_y): [[0.24833926]]
+Aktivasi Output: [[0.47880227]]
+Error: [[0.52119773]]
+Delta Output (d_y): [[0.40171231]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.55851729]]
-Error: [[-0.44148271]]
-Delta Output (d_y): [[-0.3037659]]
+Aktivasi Output: [[-0.50822784]]
+Error: [[-0.49177216]]
+Delta Output (d_y): [[-0.36474961]]
 ----
-Sum Square Error (SSE) epoch ke-27: 0.24654260553499702
+Sum Square Error (SSE) epoch ke-27: 0.4355656669224591
 
 ----------------------------------
-Epoch 28/50
+Epoch 28/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.43556684]]
-Error: [[-0.56443316]]
-Delta Output (d_y): [[-0.45734976]]
+Aktivasi Output: [[-0.23032691]]
+Error: [[-0.76967309]]
+Delta Output (d_y): [[-0.72884156]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.64477432]]
-Error: [[0.35522568]]
-Delta Output (d_y): [[0.20754631]]
+Aktivasi Output: [[0.55734272]]
+Error: [[0.44265728]]
+Delta Output (d_y): [[0.30515424]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.657664]]
-Error: [[0.342336]]
-Delta Output (d_y): [[0.19426817]]
+Aktivasi Output: [[0.57048468]]
+Error: [[0.42951532]]
+Delta Output (d_y): [[0.28972837]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.59793503]]
-Error: [[-0.40206497]]
-Delta Output (d_y): [[-0.25831617]]
+Aktivasi Output: [[-0.54209641]]
+Error: [[-0.45790359]]
+Delta Output (d_y): [[-0.32334014]]
 ----
-Sum Square Error (SSE) epoch ke-28: 0.18090506285306307
+Sum Square Error (SSE) epoch ke-28: 0.2956253090493566
 
 ----------------------------------
-Epoch 29/50
+Epoch 29/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.5108501]]
-Error: [[-0.4891499]]
-Delta Output (d_y): [[-0.36149751]]
+Aktivasi Output: [[-0.38317248]]
+Error: [[-0.61682752]]
+Delta Output (d_y): [[-0.5262642]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.68197523]]
-Error: [[0.31802477]]
-Delta Output (d_y): [[0.17011456]]
+Aktivasi Output: [[0.62064477]]
+Error: [[0.37935523]]
+Delta Output (d_y): [[0.23322763]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.69289262]]
-Error: [[0.30710738]]
-Delta Output (d_y): [[0.15966507]]
+Aktivasi Output: [[0.63318434]]
+Error: [[0.36681566]]
+Delta Output (d_y): [[0.21975105]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.63068281]]
-Error: [[-0.36931719]]
-Delta Output (d_y): [[-0.22241729]]
+Aktivasi Output: [[-0.58208322]]
+Error: [[-0.41791678]]
+Delta Output (d_y): [[-0.27631785]]
 ----
-Sum Square Error (SSE) epoch ke-29: 0.1427793771240741
+Sum Square Error (SSE) epoch ke-29: 0.20839868678849263
 
 ----------------------------------
-Epoch 30/50
+Epoch 30/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.56274746]]
-Error: [[-0.43725254]]
-Delta Output (d_y): [[-0.29878135]]
+Aktivasi Output: [[-0.47664937]]
+Error: [[-0.52335063]]
+Delta Output (d_y): [[-0.40444818]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.7099415]]
-Error: [[0.2900585]]
-Delta Output (d_y): [[0.1438641]]
+Aktivasi Output: [[0.66447698]]
+Error: [[0.33552302]]
+Delta Output (d_y): [[0.18737966]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.71921474]]
-Error: [[0.28078526]]
-Delta Output (d_y): [[0.13554351]]
+Aktivasi Output: [[0.67510189]]
+Error: [[0.32489811]]
+Delta Output (d_y): [[0.17682172]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.65743685]]
-Error: [[-0.34256315]]
-Delta Output (d_y): [[-0.19449941]]
+Aktivasi Output: [[-0.61719089]]
+Error: [[-0.38280911]]
+Delta Output (d_y): [[-0.2369877]]
 ----
-Sum Square Error (SSE) epoch ke-30: 0.11787839895929725
+Sum Square Error (SSE) epoch ke-30: 0.1596432925531952
 
 ----------------------------------
-Epoch 31/50
+Epoch 31/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.601368]]
-Error: [[-0.398632]]
-Delta Output (d_y): [[-0.25446934]]
+Aktivasi Output: [[-0.53822118]]
+Error: [[-0.46177882]]
+Delta Output (d_y): [[-0.32800979]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.73192611]]
-Error: [[0.26807389]]
-Delta Output (d_y): [[0.12446246]]
+Aktivasi Output: [[0.6965732]]
+Error: [[0.3034268]]
+Delta Output (d_y): [[0.1561998]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.73989079]]
-Error: [[0.26010921]]
-Delta Output (d_y): [[0.11771544]]
+Aktivasi Output: [[0.70547862]]
+Error: [[0.29452138]]
+Delta Output (d_y): [[0.14793806]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.67953408]]
-Error: [[-0.32046592]]
-Delta Output (d_y): [[-0.17248547]]
+Aktivasi Output: [[-0.64617268]]
+Error: [[-0.35382732]]
+Delta Output (d_y): [[-0.20609057]]
 ----
-Sum Square Error (SSE) epoch ke-31: 0.10028157189076813
+Sum Square Error (SSE) epoch ke-31: 0.1293110282554158
 
 ----------------------------------
-Epoch 32/50
+Epoch 32/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.63159222]]
-Error: [[-0.36840778]]
-Delta Output (d_y): [[-0.2214467]]
+Aktivasi Output: [[-0.58262069]]
+Error: [[-0.41737931]]
+Delta Output (d_y): [[-0.27570121]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.74978441]]
-Error: [[0.25021559]]
-Delta Output (d_y): [[0.10955023]]
+Aktivasi Output: [[0.72130582]]
+Error: [[0.27869418]]
+Delta Output (d_y): [[0.13369459]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.75670873]]
-Error: [[0.24329127]]
-Delta Output (d_y): [[0.10398072]]
+Aktivasi Output: [[0.72883486]]
+Error: [[0.27116514]]
+Delta Output (d_y): [[0.12712215]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.69808016]]
-Error: [[-0.30191984]]
-Delta Output (d_y): [[-0.1547895]]
+Aktivasi Output: [[-0.67007311]]
+Error: [[-0.32992689]]
+Delta Output (d_y): [[-0.18179039]]
 ----
-Sum Square Error (SSE) epoch ke-32: 0.08716959215210668
+Sum Square Error (SSE) epoch ke-32: 0.10856455420582377
 
 ----------------------------------
-Epoch 33/50
+Epoch 33/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.65609213]]
-Error: [[-0.34390787]]
-Delta Output (d_y): [[-0.19587036]]
+Aktivasi Output: [[-0.61662959]]
+Error: [[-0.38337041]]
+Delta Output (d_y): [[-0.23760069]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.76465587]]
-Error: [[0.23534413]]
-Delta Output (d_y): [[0.09773874]]
+Aktivasi Output: [[0.7410966]]
+Error: [[0.2589034]]
+Delta Output (d_y): [[0.1167074]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.77074438]]
-Error: [[0.22925562]]
-Delta Output (d_y): [[0.09306703]]
+Aktivasi Output: [[0.74754127]]
+Error: [[0.25245873]]
+Delta Output (d_y): [[0.11138026]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.71389031]]
-Error: [[-0.28610969]]
-Delta Output (d_y): [[-0.14029692]]
+Aktivasi Output: [[-0.69003872]]
+Error: [[-0.30996128]]
+Delta Output (d_y): [[-0.16237216]]
 ----
-Sum Square Error (SSE) epoch ke-33: 0.07701909286702044
+Sum Square Error (SSE) epoch ke-33: 0.09345381248752041
 
 ----------------------------------
-Epoch 34/50
+Epoch 34/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.67647466]]
-Error: [[-0.32352534]]
-Delta Output (d_y): [[-0.17547433]]
+Aktivasi Output: [[-0.64377493]]
+Error: [[-0.35622507]]
+Delta Output (d_y): [[-0.20858896]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.7772835]]
-Error: [[0.2227165]]
-Delta Output (d_y): [[0.08815796]]
+Aktivasi Output: [[0.75738667]]
+Error: [[0.24261333]]
+Delta Output (d_y): [[0.10344194]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.78269158]]
-Error: [[0.21730842]]
-Delta Output (d_y): [[0.08418396]]
+Aktivasi Output: [[0.7629713]]
+Error: [[0.2370287]]
+Delta Output (d_y): [[0.09904832]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.72755621]]
-Error: [[-0.27244379]]
-Delta Output (d_y): [[-0.12822893]]
+Aktivasi Output: [[-0.70696985]]
+Error: [[-0.29303015]]
+Delta Output (d_y): [[-0.14657181]]
 ----
-Sum Square Error (SSE) epoch ke-34: 0.06892996315869299
+Sum Square Error (SSE) epoch ke-34: 0.08195170042275168
 
 ----------------------------------
-Epoch 35/50
+Epoch 35/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.69377504]]
-Error: [[-0.30622496]]
-Delta Output (d_y): [[-0.15883159]]
+Aktivasi Output: [[-0.66609653]]
+Error: [[-0.33390347]]
+Delta Output (d_y): [[-0.18575564]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.78817514]]
-Error: [[0.21182486]]
-Delta Output (d_y): [[0.08023501]]
+Aktivasi Output: [[0.77109131]]
+Error: [[0.22890869]]
+Delta Output (d_y): [[0.09280375]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.7930219]]
-Error: [[0.2069781]]
-Delta Output (d_y): [[0.07681294]]
+Aktivasi Output: [[0.77598518]]
+Error: [[0.22401482]]
+Delta Output (d_y): [[0.08912363]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.73951144]]
-Error: [[-0.26048856]]
-Delta Output (d_y): [[-0.11803331]]
+Aktivasi Output: [[-0.72153153]]
+Error: [[-0.27846847]]
+Delta Output (d_y): [[-0.13349562]]
 ----
-Sum Square Error (SSE) epoch ke-35: 0.062334429911447574
+Sum Square Error (SSE) epoch ke-35: 0.07290451039050048
 
 ----------------------------------
-Epoch 36/50
+Epoch 36/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.70869575]]
-Error: [[-0.29130425]]
-Delta Output (d_y): [[-0.14499679]]
+Aktivasi Output: [[-0.68487037]]
+Error: [[-0.31512963]]
+Delta Output (d_y): [[-0.16731889]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.79769134]]
-Error: [[0.20230866]]
-Delta Output (d_y): [[0.07357734]]
+Aktivasi Output: [[0.78282301]]
+Error: [[0.21717699]]
+Delta Output (d_y): [[0.08408836]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.80206925]]
-Error: [[0.19793075]]
-Delta Output (d_y): [[0.07059891]]
+Aktivasi Output: [[0.78715443]]
+Error: [[0.21284557]]
+Delta Output (d_y): [[0.08096388]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.75007912]]
-Error: [[-0.24992088]]
-Delta Output (d_y): [[-0.10931073]]
+Aktivasi Output: [[-0.73421259]]
+Error: [[-0.26578741]]
+Delta Output (d_y): [[-0.12250989]]
 ----
-Sum Square Error (SSE) epoch ke-36: 0.056855996929130875
+Sum Square Error (SSE) epoch ke-36: 0.06560467869693898
 
 ----------------------------------
-Epoch 37/50
+Epoch 37/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.7217332]]
-Error: [[-0.2782668]]
-Delta Output (d_y): [[-0.13331796]]
+Aktivasi Output: [[-0.70094286]]
+Error: [[-0.29905714]]
+Delta Output (d_y): [[-0.15212412]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.80609607]]
-Error: [[0.19390393]]
-Delta Output (d_y): [[0.06790693]]
+Aktivasi Output: [[0.79300906]]
+Error: [[0.20699094]]
+Delta Output (d_y): [[0.07682192]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.8100779]]
-Error: [[0.1899221]]
-Delta Output (d_y): [[0.06529024]]
+Aktivasi Output: [[0.79687645]]
+Error: [[0.20312355]]
+Delta Output (d_y): [[0.07413764]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.75950446]]
-Error: [[-0.24049554]]
-Delta Output (d_y): [[-0.1017664]]
+Aktivasi Output: [[-0.74537645]]
+Error: [[-0.25462355]]
+Delta Output (d_y): [[-0.11315826]]
 ----
-Sum Square Error (SSE) epoch ke-37: 0.05223491400911103
+Sum Square Error (SSE) epoch ke-37: 0.05959318780761637
 
 ----------------------------------
-Epoch 38/50
+Epoch 38/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.73324976]]
-Error: [[-0.26675024]]
-Delta Output (d_y): [[-0.12333058]]
+Aktivasi Output: [[-0.7149014]]
+Error: [[-0.2850986]]
+Delta Output (d_y): [[-0.13938926]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.81358761]]
-Error: [[0.18641239]]
-Delta Output (d_y): [[0.06302141]]
+Aktivasi Output: [[0.80195784]]
+Error: [[0.19804216]]
+Delta Output (d_y): [[0.07067405]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.8172314]]
-Error: [[0.1827686]]
-Delta Output (d_y): [[0.06070345]]
+Aktivasi Output: [[0.80543774]]
+Error: [[0.19456226]]
+Delta Output (d_y): [[0.06834389]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.76797685]]
-Error: [[-0.23202315]]
-Delta Output (d_y): [[-0.09517858]]
+Aktivasi Output: [[-0.75529774]]
+Error: [[-0.24470226]]
+Delta Output (d_y): [[-0.10510582]]
 ----
-Sum Square Error (SSE) epoch ke-38: 0.04828609273263074
+Sum Square Error (SSE) epoch ke-38: 0.054558895351066915
 
 ----------------------------------
-Epoch 39/50
+Epoch 39/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.74351715]]
-Error: [[-0.25648285]]
-Delta Output (d_y): [[-0.11469457]]
+Aktivasi Output: [[-0.72716859]]
+Error: [[-0.27283141]]
+Delta Output (d_y): [[-0.12856521]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.8203182]]
-Error: [[0.1796818]]
-Delta Output (d_y): [[0.05876997]]
+Aktivasi Output: [[0.8098982]]
+Error: [[0.1901018]]
+Delta Output (d_y): [[0.06540736]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.8236708]]
-Error: [[0.1763292]]
-Delta Output (d_y): [[0.05670155]]
+Aktivasi Output: [[0.81305094]]
+Error: [[0.18694906]]
+Delta Output (d_y): [[0.06336604]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.77564489]]
-Error: [[-0.22435511]]
-Delta Output (d_y): [[-0.08937747]]
+Aktivasi Output: [[-0.76418743]]
+Error: [[-0.23581257]]
+Delta Output (d_y): [[-0.09810218]]
 ----
-Sum Square Error (SSE) epoch ke-39: 0.04487404937480721
+Sum Square Error (SSE) epoch ke-39: 0.05028329872030783
 
 ----------------------------------
-Epoch 40/50
+Epoch 40/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.75274371]]
-Error: [[-0.24725629]]
-Delta Output (d_y): [[-0.10715517]]
+Aktivasi Output: [[-0.73805744]]
+Error: [[-0.26194256]]
+Delta Output (d_y): [[-0.1192549]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.8264069]]
-Error: [[0.1735931]]
-Delta Output (d_y): [[0.05503798]]
+Aktivasi Output: [[0.81700403]]
+Error: [[0.18299597]]
+Delta Output (d_y): [[0.06084697]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.82950657]]
-Error: [[0.17049343]]
-Delta Output (d_y): [[0.05318011]]
+Aktivasi Output: [[0.81987778]]
+Error: [[0.18012222]]
+Delta Output (d_y): [[0.05904414]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.78262694]]
-Error: [[-0.21737306]]
-Delta Output (d_y): [[-0.08423099]]
+Aktivasi Output: [[-0.77221024]]
+Error: [[-0.22778976]]
+Delta Output (d_y): [[-0.09195675]]
 ----
-Sum Square Error (SSE) epoch ke-40: 0.041897323519490125
+Sum Square Error (SSE) epoch ke-40: 0.046608403865794054
 
 ----------------------------------
-Epoch 41/50
+Epoch 41/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.76109224]]
-Error: [[-0.23890776]]
-Delta Output (d_y): [[-0.10051772]]
+Aktivasi Output: [[-0.74780551]]
+Error: [[-0.25219449]]
+Delta Output (d_y): [[-0.11116403]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.83194832]]
-Error: [[0.16805168]]
-Delta Output (d_y): [[0.05173672]]
+Aktivasi Output: [[0.8234101]]
+Error: [[0.1765899]]
+Delta Output (d_y): [[0.05686121]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.83482665]]
-Error: [[0.16517335]]
-Delta Output (d_y): [[0.05005817]]
+Aktivasi Output: [[0.82604381]]
+Error: [[0.17395619]]
+Delta Output (d_y): [[0.05525747]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.78901848]]
-Error: [[-0.21098152]]
-Delta Output (d_y): [[-0.07963494]]
+Aktivasi Output: [[-0.77949672]]
+Error: [[-0.22050328]]
+Delta Output (d_y): [[-0.08652215]]
 ----
-Sum Square Error (SSE) epoch ke-41: 0.03927843051734559
+Sum Square Error (SSE) epoch ke-41: 0.043417126516633306
 
 ----------------------------------
-Epoch 42/50
+Epoch 42/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.76869208]]
-Error: [[-0.23130792]]
-Delta Output (d_y): [[-0.09463096]]
+Aktivasi Output: [[-0.75659681]]
+Error: [[-0.24340319]]
+Delta Output (d_y): [[-0.10406977]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.83701874]]
-Error: [[0.16298126]]
-Delta Output (d_y): [[0.04879653]]
+Aktivasi Output: [[0.8292227]]
+Error: [[0.1707773]]
+Delta Output (d_y): [[0.05334907]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.83970203]]
-Error: [[0.16029797]]
-Delta Output (d_y): [[0.04727195]]
+Aktivasi Output: [[0.83164819]]
+Error: [[0.16835181]]
+Delta Output (d_y): [[0.05191318]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.79489751]]
-Error: [[-0.20510249]]
-Delta Output (d_y): [[-0.07550601]]
+Aktivasi Output: [[-0.78615168]]
+Error: [[-0.21384832]]
+Delta Output (d_y): [[-0.08168269]]
 ----
-Sum Square Error (SSE) epoch ke-42: 0.03695717904174531
+Sum Square Error (SSE) epoch ke-42: 0.04062085820312229
 
 ----------------------------------
-Epoch 43/50
+Epoch 43/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.77564747]]
-Error: [[-0.22435253]]
-Delta Output (d_y): [[-0.08937554]]
+Aktivasi Output: [[-0.76457642]]
+Error: [[-0.23542358]]
+Delta Output (d_y): [[-0.09780035]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.8416804]]
-Error: [[0.1583196]]
-Delta Output (d_y): [[0.0461619]]
+Aktivasi Output: [[0.83452691]]
+Error: [[0.16547309]]
+Delta Output (d_y): [[0.05023181]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.84419076]]
-Error: [[0.15580924]]
-Delta Output (d_y): [[0.04477053]]
+Aktivasi Output: [[0.83677046]]
+Error: [[0.16322954]]
+Delta Output (d_y): [[0.04893869]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.80032839]]
-Error: [[-0.19967161]]
-Delta Output (d_y): [[-0.07177684]]
+Aktivasi Output: [[-0.79226036]]
+Error: [[-0.20773964]]
+Delta Output (d_y): [[-0.07734635]]
 ----
-Sum Square Error (SSE) epoch ke-43: 0.034886106657443836
+Sum Square Error (SSE) epoch ke-43: 0.038151311356751594
 
 ----------------------------------
-Epoch 44/50
+Epoch 44/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.78204345]]
-Error: [[-0.21795655]]
-Delta Output (d_y): [[-0.08465608]]
+Aktivasi Output: [[-0.77186047]]
+Error: [[-0.22813953]]
+Delta Output (d_y): [[-0.09222117]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.84598466]]
-Error: [[0.15401534]]
-Delta Output (d_y): [[0.0437881]]
+Aktivasi Output: [[0.83939174]]
+Error: [[0.16060826]]
+Delta Output (d_y): [[0.04744713]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.84834084]]
-Error: [[0.15165916]]
-Delta Output (d_y): [[0.04251277]]
+Aktivasi Output: [[0.84147526]]
+Error: [[0.15852474]]
+Delta Output (d_y): [[0.04627644]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.80536478]]
-Error: [[-0.19463522]]
-Delta Output (d_y): [[-0.0683924]]
+Aktivasi Output: [[-0.79789282]]
+Error: [[-0.20210718]]
+Delta Output (d_y): [[-0.07343909]]
 ----
-Sum Square Error (SSE) epoch ke-44: 0.03302728874403299
+Sum Square Error (SSE) epoch ke-44: 0.035955016318552746
 
 ----------------------------------
-Epoch 45/50
+Epoch 45/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.78795023]]
-Error: [[-0.21204977]]
-Delta Output (d_y): [[-0.08039537]]
+Aktivasi Output: [[-0.77854316]]
+Error: [[-0.22145684]]
+Delta Output (d_y): [[-0.08722533]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.84997433]]
-Error: [[0.15002567]]
-Delta Output (d_y): [[0.04163867]]
+Aktivasi Output: [[0.84387385]]
+Error: [[0.15612615]]
+Delta Output (d_y): [[0.04494512]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.85219233]]
-Error: [[0.14780767]]
-Delta Output (d_y): [[0.04046505]]
+Aktivasi Output: [[0.84581574]]
+Error: [[0.15418426]]
+Delta Output (d_y): [[0.04388019]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.81005177]]
-Error: [[-0.18994823]]
-Delta Output (d_y): [[-0.06530727]]
+Aktivasi Output: [[-0.80310723]]
+Error: [[-0.19689277]]
+Delta Output (d_y): [[-0.06990063]]
 ----
-Sum Square Error (SSE) epoch ke-45: 0.031350061382071526
+Sum Square Error (SSE) epoch ke-45: 0.0339895148868899
 
 ----------------------------------
-Epoch 46/50
+Epoch 46/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.79342629]]
-Error: [[-0.20657371]]
-Delta Output (d_y): [[-0.07653034]]
+Aktivasi Output: [[-0.78470183]]
+Error: [[-0.21529817]]
+Delta Output (d_y): [[-0.08272682]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.85368542]]
-Error: [[0.14631458]]
-Delta Output (d_y): [[0.03968361]]
+Aktivasi Output: [[0.8480202]]
+Error: [[0.1519798]]
+Delta Output (d_y): [[0.04268531]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.85577898]]
-Error: [[0.14422102]]
-Delta Output (d_y): [[0.03859965]]
+Aktivasi Output: [[0.84983605]]
+Error: [[0.15016395]]
+Delta Output (d_y): [[0.04171235]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.81442761]]
-Error: [[-0.18557239]]
-Delta Output (d_y): [[-0.06248365]]
+Aktivasi Output: [[-0.80795234]]
+Error: [[-0.19204766]]
+Delta Output (d_y): [[-0.06668145]]
 ----
-Sum Square Error (SSE) epoch ke-46: 0.02982936659032931
+Sum Square Error (SSE) epoch ke-46: 0.032220669615346836
 
 ----------------------------------
-Epoch 47/50
+Epoch 47/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.79852086]]
-Error: [[-0.20147914]]
-Delta Output (d_y): [[-0.07300888]]
+Aktivasi Output: [[-0.79040063]]
+Error: [[-0.20959937]]
+Delta Output (d_y): [[-0.07865569]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.85714844]]
-Error: [[0.14285156]]
-Delta Output (d_y): [[0.03789802]]
+Aktivasi Output: [[0.85187013]]
+Error: [[0.14812987]]
+Delta Output (d_y): [[0.04063458]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.85912945]]
-Error: [[0.14087055]]
-Delta Output (d_y): [[0.03689352]]
+Aktivasi Output: [[0.85357324]]
+Error: [[0.14642676]]
+Delta Output (d_y): [[0.03974209]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.81852494]]
-Error: [[-0.18147506]]
-Delta Output (d_y): [[-0.05988984]]
+Aktivasi Output: [[-0.81246933]]
+Error: [[-0.18753067]]
+Delta Output (d_y): [[-0.06374047]]
 ----
-Sum Square Error (SSE) epoch ke-47: 0.02844453007992167
+Sum Square Error (SSE) epoch ke-47: 0.030620724925519375
 
 ----------------------------------
-Epoch 48/50
+Epoch 48/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.80327563]]
-Error: [[-0.19672437]]
-Delta Output (d_y): [[-0.06978763]]
+Aktivasi Output: [[-0.79569329]]
+Error: [[-0.20430671]]
+Delta Output (d_y): [[-0.07495445]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.86038945]]
-Error: [[0.13961055]]
-Delta Output (d_y): [[0.03626105]]
+Aktivasi Output: [[0.85545684]]
+Error: [[0.14454316]]
+Delta Output (d_y): [[0.03876555]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.86226826]]
-Error: [[0.13773174]]
-Delta Output (d_y): [[0.03532729]]
+Aktivasi Output: [[0.85705864]]
+Error: [[0.14294136]]
+Delta Output (d_y): [[0.03794385]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.82237184]]
-Error: [[-0.17762816]]
-Delta Output (d_y): [[-0.05749905]]
+Aktivasi Output: [[-0.81669327]]
+Error: [[-0.18330673]]
+Delta Output (d_y): [[-0.06104336]]
 ----
-Sum Square Error (SSE) epoch ke-48: 0.027178345140493665
+Sum Square Error (SSE) epoch ke-48: 0.029166885824619362
 
 ----------------------------------
-Epoch 49/50
+Epoch 49/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.80772624]]
-Error: [[-0.19227376]]
-Delta Output (d_y): [[-0.06683019]]
+Aktivasi Output: [[-0.80062518]]
+Error: [[-0.19937482]]
+Delta Output (d_y): [[-0.07157542]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.86343086]]
-Error: [[0.13656914]]
-Delta Output (d_y): [[0.03475509]]
+Aktivasi Output: [[0.85880858]]
+Error: [[0.14119142]]
+Delta Output (d_y): [[0.03705538]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.8652165]]
-Error: [[0.1347835]]
-Delta Output (d_y): [[0.03388463]]
+Aktivasi Output: [[0.86031894]]
+Error: [[0.13968106]]
+Delta Output (d_y): [[0.03629631]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.82599257]]
-Error: [[-0.17400743]]
-Delta Output (d_y): [[-0.05528847]]
+Aktivasi Output: [[-0.82065422]]
+Error: [[-0.17934578]]
+Delta Output (d_y): [[-0.05856117]]
 ----
-Sum Square Error (SSE) epoch ke-49: 0.026016376804346972
+Sum Square Error (SSE) epoch ke-49: 0.027840259894111524
 
 ----------------------------------
-Epoch 50/50
+Epoch 50/200
 ----------------------------------
 Data ke-1
 ----
-Aktivasi Output: [[-0.81190333]]
-Error: [[-0.18809667]]
-Delta Output (d_y): [[-0.06410579]]
+Aktivasi Output: [[-0.80523492]]
+Error: [[-0.19476508]]
+Delta Output (d_y): [[-0.06847876]]
 ----
 Data ke-2
 ----
-Aktivasi Output: [[0.86629204]]
-Error: [[0.13370796]]
-Delta Output (d_y): [[0.03336523]]
+Aktivasi Output: [[0.86194956]]
+Error: [[0.13805044]]
+Delta Output (d_y): [[0.03548489]]
 ----
 Data ke-3
 ----
-Aktivasi Output: [[0.86799247]]
-Error: [[0.13200753]]
-Delta Output (d_y): [[0.03255161]]
+Aktivasi Output: [[0.86337706]]
+Error: [[0.13662294]]
+Delta Output (d_y): [[0.03478147]]
 ----
 Data ke-4
 ----
-Aktivasi Output: [[-0.82940825]]
-Error: [[-0.17059175]]
-Delta Output (d_y): [[-0.05323861]]
+Aktivasi Output: [[-0.82437811]]
+Error: [[-0.17562189]]
+Delta Output (d_y): [[-0.05626938]]
 ----
-Sum Square Error (SSE) epoch ke-50: 0.024946426897558393
+Sum Square Error (SSE) epoch ke-50: 0.02662505867621155
 
 ----------------------------------
-Pelatihan berhenti pada epoch ke-50 karena max epoch tercapai.
+Epoch 51/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.8095556]]
+Error: [[-0.1904444]]
+Delta Output (d_y): [[-0.0656309]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.86490065]]
+Error: [[0.13509935]]
+Delta Output (d_y): [[0.03403786]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.8662528]]
+Error: [[0.1337472]]
+Delta Output (d_y): [[0.03338412]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.82788745]]
+Error: [[-0.17211255]]
+Delta Output (d_y): [[-0.05414702]]
+----
+Sum Square Error (SSE) epoch ke-51: 0.02550798720327252
+
+----------------------------------
+Epoch 52/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.81361579]]
+Error: [[-0.18638421]]
+Delta Output (d_y): [[-0.06300333]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.86767996]]
+Error: [[0.13232004]]
+Delta Output (d_y): [[0.03270045]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.86896333]]
+Error: [[0.13103667]]
+Delta Output (d_y): [[0.03209124]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.83120186]]
+Error: [[-0.16879814]]
+Delta Output (d_y): [[-0.05217609]]
+----
+Sum Square Error (SSE) epoch ke-52: 0.024477771940607095
+
+----------------------------------
+Epoch 53/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.81744025]]
+Error: [[-0.18255975]]
+Delta Output (d_y): [[-0.06057176]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.87030328]]
+Error: [[0.12969672]]
+Delta Output (d_y): [[0.03146082]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.87152369]]
+Error: [[0.12847631]]
+Delta Output (d_y): [[0.03089167]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.83433858]]
+Error: [[-0.16566142]]
+Delta Output (d_y): [[-0.05034105]]
+----
+Sum Square Error (SSE) epoch ke-53: 0.02352479188738031
+
+----------------------------------
+Epoch 54/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.82105062]]
+Error: [[-0.17894938]]
+Delta Output (d_y): [[-0.05831529]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.87278448]]
+Error: [[0.12721552]]
+Delta Output (d_y): [[0.03030875]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.87394706]]
+Error: [[0.12605294]]
+Delta Output (d_y): [[0.02977579]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.83731277]]
+Error: [[-0.16268723]]
+Delta Output (d_y): [[-0.0486284]]
+----
+Sum Square Error (SSE) epoch ke-54: 0.022640787480463952
+
+----------------------------------
+Epoch 55/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.82446584]]
+Error: [[-0.17553416]]
+Delta Output (d_y): [[-0.05621588]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.87513573]]
+Error: [[0.12486427]]
+Delta Output (d_y): [[0.0292354]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.87624506]]
+Error: [[0.12375494]]
+Delta Output (d_y): [[0.02873523]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.84013787]]
+Error: [[-0.15986213]]
+Delta Output (d_y): [[-0.04702638]]
+----
+Sum Square Error (SSE) epoch ke-55: 0.021818628824581087
+
+----------------------------------
+Epoch 56/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.82770262]]
+Error: [[-0.17229738]]
+Delta Output (d_y): [[-0.05425789]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.87736784]]
+Error: [[0.12263216]]
+Delta Output (d_y): [[0.02823307]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.87842799]]
+Error: [[0.12157201]]
+Delta Output (d_y): [[0.0277627]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.84282579]]
+Error: [[-0.15717421]]
+Delta Output (d_y): [[-0.04552467]]
+----
+Sum Square Error (SSE) epoch ke-56: 0.021052129620140407
+
+----------------------------------
+Epoch 57/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.83077575]]
+Error: [[-0.16922425]]
+Delta Output (d_y): [[-0.05242765]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.87949038]]
+Error: [[0.12050962]]
+Delta Output (d_y): [[0.02729503]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.88050502]]
+Error: [[0.11949498]]
+Delta Output (d_y): [[0.02685183]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.84538719]]
+Error: [[-0.15461281]]
+Delta Output (d_y): [[-0.0441142]]
+----
+Sum Square Error (SSE) epoch ke-57: 0.02033589662274691
+
+----------------------------------
+Epoch 58/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.83369835]]
+Error: [[-0.16630165]]
+Delta Output (d_y): [[-0.0507132]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.88151191]]
+Error: [[0.11848809]]
+Delta Output (d_y): [[0.02641535]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.88248431]]
+Error: [[0.11751569]]
+Delta Output (d_y): [[0.02599699]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.84783159]]
+Error: [[-0.15216841]]
+Delta Output (d_y): [[-0.04278695]]
+----
+Sum Square Error (SSE) epoch ke-58: 0.01966520697190864
+
+----------------------------------
+Epoch 59/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.83648215]]
+Error: [[-0.16351785]]
+Delta Output (d_y): [[-0.04910402]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.88344006]]
+Error: [[0.11655994]]
+Delta Output (d_y): [[0.02558883]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.88437319]]
+Error: [[0.11562681]]
+Delta Output (d_y): [[0.02519324]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.85016755]]
+Error: [[-0.14983245]]
+Delta Output (d_y): [[-0.04153582]]
+----
+Sum Square Error (SSE) epoch ke-59: 0.0190359075572864
+
+----------------------------------
+Epoch 60/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.83913762]]
+Error: [[-0.16086238]]
+Delta Output (d_y): [[-0.04759082]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.8852817]]
+Error: [[0.1147183]]
+Delta Output (d_y): [[0.02481085]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.88617825]]
+Error: [[0.11382175]]
+Delta Output (d_y): [[0.02443618]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.85240277]]
+Error: [[-0.14759723]]
+Delta Output (d_y): [[-0.04035449]]
+----
+Sum Square Error (SSE) epoch ke-60: 0.01844433194396137
+
+----------------------------------
+Epoch 61/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.84167418]]
+Error: [[-0.15832582]]
+Delta Output (d_y): [[-0.04616537]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.88704303]]
+Error: [[0.11295697]]
+Delta Output (d_y): [[0.02407731]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.88790541]]
+Error: [[0.11209459]]
+Delta Output (d_y): [[0.0237219]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.85454422]]
+Error: [[-0.14545578]]
+Delta Output (d_y): [[-0.03923731]]
+----
+Sum Square Error (SSE) epoch ke-61: 0.017887231388201457
+
+----------------------------------
+Epoch 62/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.84410031]]
+Error: [[-0.15589969]]
+Delta Output (d_y): [[-0.04482033]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.88872962]]
+Error: [[0.11127038]]
+Delta Output (d_y): [[0.02338455]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.88956005]]
+Error: [[0.11043995]]
+Delta Output (d_y): [[0.02304693]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.85659821]]
+Error: [[-0.14340179]]
+Delta Output (d_y): [[-0.03817922]]
+----
+Sum Square Error (SSE) epoch ke-62: 0.017361717236097328
+
+----------------------------------
+Epoch 63/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.84642368]]
+Error: [[-0.15357632]]
+Delta Output (d_y): [[-0.04354917]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.89034653]]
+Error: [[0.10965347]]
+Delta Output (d_y): [[0.0227293]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.89114702]]
+Error: [[0.10885298]]
+Delta Output (d_y): [[0.02240815]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.85857048]]
+Error: [[-0.14142952]]
+Delta Output (d_y): [[-0.0371757]]
+----
+Sum Square Error (SSE) epoch ke-63: 0.01686521257565364
+
+----------------------------------
+Epoch 64/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.84865123]]
+Error: [[-0.15134877]]
+Delta Output (d_y): [[-0.04234604]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.89189837]]
+Error: [[0.10810163]]
+Delta Output (d_y): [[0.02210865]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.89267076]]
+Error: [[0.10732924]]
+Delta Output (d_y): [[0.02180275]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.86046625]]
+Error: [[-0.13953375]]
+Delta Output (d_y): [[-0.03622266]]
+----
+Sum Square Error (SSE) epoch ke-64: 0.01639541145590759
+
+----------------------------------
+Epoch 65/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.85078928]]
+Error: [[-0.14921072]]
+Delta Output (d_y): [[-0.04120567]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.89338932]]
+Error: [[0.10661068]]
+Delta Output (d_y): [[0.02151995]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.89413528]]
+Error: [[0.10586472]]
+Delta Output (d_y): [[0.02122821]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.86229029]]
+Error: [[-0.13770971]]
+Delta Output (d_y): [[-0.03531641]]
+----
+Sum Square Error (SSE) epoch ke-65: 0.01595024432864648
+
+----------------------------------
+Epoch 66/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.85284357]]
+Error: [[-0.14715643]]
+Delta Output (d_y): [[-0.04012336]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.8948232]]
+Error: [[0.1051768]]
+Delta Output (d_y): [[0.02096084]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.89554429]]
+Error: [[0.10445571]]
+Delta Output (d_y): [[0.02068228]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.86404698]]
+Error: [[-0.13595302]]
+Delta Output (d_y): [[-0.0344536]]
+----
+Sum Square Error (SSE) epoch ke-66: 0.015527848634248696
+
+----------------------------------
+Epoch 67/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.85481934]]
+Error: [[-0.14518066]]
+Delta Output (d_y): [[-0.03909481]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.89620351]]
+Error: [[0.10379649]]
+Delta Output (d_y): [[0.02042915]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.89690114]]
+Error: [[0.10309886]]
+Delta Output (d_y): [[0.02016287]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.86574031]]
+Error: [[-0.13425969]]
+Delta Output (d_y): [[-0.03363121]]
+----
+Sum Square Error (SSE) epoch ke-67: 0.015126543661403789
+
+----------------------------------
+Epoch 68/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.85672141]]
+Error: [[-0.14327859]]
+Delta Output (d_y): [[-0.03811618]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.89753345]]
+Error: [[0.10246655]]
+Delta Output (d_y): [[0.01992295]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.89820894]]
+Error: [[0.10179106]]
+Delta Output (d_y): [[0.01966814]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.86737396]]
+Error: [[-0.13262604]]
+Delta Output (d_y): [[-0.03284648]]
+----
+Sum Square Error (SSE) epoch ke-68: 0.014744808974567173
+
+----------------------------------
+Epoch 69/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.85855416]]
+Error: [[-0.14144584]]
+Delta Output (d_y): [[-0.03718395]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.89881597]]
+Error: [[0.10118403]]
+Delta Output (d_y): [[0.01944047]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.89947052]]
+Error: [[0.10052948]]
+Delta Output (d_y): [[0.01919638]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.86895133]]
+Error: [[-0.13104867]]
+Delta Output (d_y): [[-0.03209691]]
+----
+Sum Square Error (SSE) epoch ke-69: 0.014381265833118589
+
+----------------------------------
+Epoch 70/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.86032165]]
+Error: [[-0.13967835]]
+Delta Output (d_y): [[-0.03629495]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.90005378]]
+Error: [[0.09994622]]
+Delta Output (d_y): [[0.01898011]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.90068851]]
+Error: [[0.09931149]]
+Delta Output (d_y): [[0.01874606]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.87047555]]
+Error: [[-0.12952445]]
+Delta Output (d_y): [[-0.03138019]]
+----
+Sum Square Error (SSE) epoch ke-70: 0.01403466112996356
+
+----------------------------------
+Epoch 71/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.86202761]]
+Error: [[-0.13797239]]
+Delta Output (d_y): [[-0.03544627]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.90124938]]
+Error: [[0.09875062]]
+Delta Output (d_y): [[0.01854039]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.90186532]]
+Error: [[0.09813468]]
+Delta Output (d_y): [[0.01831575]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.8719495]]
+Error: [[-0.1280505]]
+Delta Output (d_y): [[-0.03069423]]
+----
+Sum Square Error (SSE) epoch ke-71: 0.013703853460536947
+
+----------------------------------
+Epoch 72/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.86367546]]
+Error: [[-0.13632454]]
+Delta Output (d_y): [[-0.03463525]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.90240508]]
+Error: [[0.09759492]]
+Delta Output (d_y): [[0.01811997]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.90300319]]
+Error: [[0.09699681]]
+Delta Output (d_y): [[0.01790418]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.87337585]]
+Error: [[-0.12662415]]
+Delta Output (d_y): [[-0.0300371]]
+----
+Sum Square Error (SSE) epoch ke-72: 0.013387801000257936
+
+----------------------------------
+Epoch 73/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.86526839]]
+Error: [[-0.13473161]]
+Delta Output (d_y): [[-0.03385948]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.90352302]]
+Error: [[0.09647698]]
+Delta Output (d_y): [[0.01771763]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.9041042]]
+Error: [[0.0958958]]
+Delta Output (d_y): [[0.01751015]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.8747571]]
+Error: [[-0.1252429]]
+Delta Output (d_y): [[-0.02940703]]
+----
+Sum Square Error (SSE) epoch ke-73: 0.013085550922846294
+
+----------------------------------
+Epoch 74/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.86680933]]
+Error: [[-0.13319067]]
+Delta Output (d_y): [[-0.03311674]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.90460518]]
+Error: [[0.09539482]]
+Delta Output (d_y): [[0.01733223]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.90517025]]
+Error: [[0.09482975]]
+Delta Output (d_y): [[0.01713259]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.87609555]]
+Error: [[-0.12390445]]
+Delta Output (d_y): [[-0.02880241]]
+----
+Sum Square Error (SSE) epoch ke-74: 0.012796230136166544
+
+----------------------------------
+Epoch 75/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.86830102]]
+Error: [[-0.13169898]]
+Delta Output (d_y): [[-0.03240498]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.9056534]]
+Error: [[0.0943466]]
+Delta Output (d_y): [[0.01696276]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.90620315]]
+Error: [[0.09379685]]
+Delta Output (d_y): [[0.01677049]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.87739333]]
+Error: [[-0.12260667]]
+Delta Output (d_y): [[-0.02822172]]
+----
+Sum Square Error (SSE) epoch ke-75: 0.012519037148462843
+
+----------------------------------
+Epoch 76/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.86974597]]
+Error: [[-0.13025403]]
+Delta Output (d_y): [[-0.03172232]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.9066694]]
+Error: [[0.0933306]]
+Delta Output (d_y): [[0.01660824]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.90720454]]
+Error: [[0.09279546]]
+Delta Output (d_y): [[0.01642293]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.87865245]]
+Error: [[-0.12134755]]
+Delta Output (d_y): [[-0.02766359]]
+----
+Sum Square Error (SSE) epoch ke-76: 0.012253234907581064
+
+----------------------------------
+Epoch 77/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.87114654]]
+Error: [[-0.12885346]]
+Delta Output (d_y): [[-0.03106704]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.90765477]]
+Error: [[0.09234523]]
+Delta Output (d_y): [[0.0162678]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.90817597]]
+Error: [[0.09182403]]
+Delta Output (d_y): [[0.01608908]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.87987477]]
+Error: [[-0.12012523]]
+Delta Output (d_y): [[-0.02712672]]
+----
+Sum Square Error (SSE) epoch ke-77: 0.011998144480301776
+
+----------------------------------
+Epoch 78/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.87250494]]
+Error: [[-0.12749506]]
+Delta Output (d_y): [[-0.03043755]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.90861099]]
+Error: [[0.09138901]]
+Delta Output (d_y): [[0.01594063]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.90911889]]
+Error: [[0.09088111]]
+Delta Output (d_y): [[0.01576813]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.88106204]]
+Error: [[-0.11893796]]
+Delta Output (d_y): [[-0.02660995]]
+----
+Sum Square Error (SSE) epoch ke-78: 0.011753139459221533
+
+----------------------------------
+Epoch 79/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.87382319]]
+Error: [[-0.12617681]]
+Delta Output (d_y): [[-0.02983237]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.90953945]]
+Error: [[0.09046055]]
+Delta Output (d_y): [[0.01562597]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.91003465]]
+Error: [[0.08996535]]
+Delta Output (d_y): [[0.01545937]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.88221587]]
+Error: [[-0.11778413]]
+Delta Output (d_y): [[-0.02611217]]
+----
+Sum Square Error (SSE) epoch ke-79: 0.01151764100150929
+
+----------------------------------
+Epoch 80/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.87510322]]
+Error: [[-0.12489678]]
+Delta Output (d_y): [[-0.02925012]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.91044146]]
+Error: [[0.08955854]]
+Delta Output (d_y): [[0.01532314]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.9109245]]
+Error: [[0.0890755]]
+Delta Output (d_y): [[0.01516213]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.8833378]]
+Error: [[-0.1166622]]
+Delta Output (d_y): [[-0.02563236]]
+----
+Sum Square Error (SSE) epoch ke-80: 0.011291113417957414
+
+----------------------------------
+Epoch 81/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.8763468]]
+Error: [[-0.1236532]]
+Delta Output (d_y): [[-0.02868956]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.91131822]]
+Error: [[0.08868178]]
+Delta Output (d_y): [[0.01503148]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.91178963]]
+Error: [[0.08821037]]
+Delta Output (d_y): [[0.01487577]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.88442925]]
+Error: [[-0.11557075]]
+Delta Output (d_y): [[-0.02516957]]
+----
+Sum Square Error (SSE) epoch ke-81: 0.011073060242550286
+
+----------------------------------
+Epoch 82/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.87755561]]
+Error: [[-0.12244439]]
+Delta Output (d_y): [[-0.0281495]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.91217088]]
+Error: [[0.08782912]]
+Delta Output (d_y): [[0.0147504]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.91263115]]
+Error: [[0.08736885]]
+Delta Output (d_y): [[0.01459972]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.88549156]]
+Error: [[-0.11450844]]
+Delta Output (d_y): [[-0.02472291]]
+----
+Sum Square Error (SSE) epoch ke-82: 0.010863020722690025
+
+----------------------------------
+Epoch 83/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.87873121]]
+Error: [[-0.12126879]]
+Delta Output (d_y): [[-0.02762885]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.9130005]]
+Error: [[0.0869995]]
+Delta Output (d_y): [[0.01447933]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.91345009]]
+Error: [[0.08654991]]
+Delta Output (d_y): [[0.01433344]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.88652601]]
+Error: [[-0.11347399]]
+Delta Output (d_y): [[-0.02429156]]
+----
+Sum Square Error (SSE) epoch ke-83: 0.010660566678580794
+
+----------------------------------
+Epoch 84/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.87987508]]
+Error: [[-0.12012492]]
+Delta Output (d_y): [[-0.02712659]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.9138081]]
+Error: [[0.0861919]]
+Delta Output (d_y): [[0.01421777]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.91424744]]
+Error: [[0.08575256]]
+Delta Output (d_y): [[0.01407642]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.88753376]]
+Error: [[-0.11246624]]
+Delta Output (d_y): [[-0.02387476]]
+----
+Sum Square Error (SSE) epoch ke-84: 0.010465299687343806
+
+----------------------------------
+Epoch 85/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.8809886]]
+Error: [[-0.1190114]]
+Delta Output (d_y): [[-0.02664178]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.9145946]]
+Error: [[0.0854054]]
+Delta Output (d_y): [[0.01396521]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.91502411]]
+Error: [[0.08497589]]
+Delta Output (d_y): [[0.0138282]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.88851594]]
+Error: [[-0.11148406]]
+Delta Output (d_y): [[-0.02347179]]
+----
+Sum Square Error (SSE) epoch ke-85: 0.010276848553433962
+
+----------------------------------
+Epoch 86/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.88207306]]
+Error: [[-0.11792694]]
+Delta Output (d_y): [[-0.02617354]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.91536091]]
+Error: [[0.08463909]]
+Delta Output (d_y): [[0.01372122]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.91578096]]
+Error: [[0.08421904]]
+Delta Output (d_y): [[0.01358834]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.88947361]]
+Error: [[-0.11052639]]
+Delta Output (d_y): [[-0.02308197]]
+----
+Sum Square Error (SSE) epoch ke-86: 0.010094867032032162
+
+----------------------------------
+Epoch 87/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.8831297]]
+Error: [[-0.1168703]]
+Delta Output (d_y): [[-0.02572104]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.91610786]]
+Error: [[0.08389214]]
+Delta Output (d_y): [[0.01348536]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.91651883]]
+Error: [[0.08348117]]
+Delta Output (d_y): [[0.01335642]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.89040775]]
+Error: [[-0.10959225]]
+Delta Output (d_y): [[-0.02270467]]
+----
+Sum Square Error (SSE) epoch ke-87: 0.009919031776442041
+
+----------------------------------
+Epoch 88/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.88415966]]
+Error: [[-0.11584034]]
+Delta Output (d_y): [[-0.02528351]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.91683623]]
+Error: [[0.08316377]]
+Delta Output (d_y): [[0.01325725]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.91723847]]
+Error: [[0.08276153]]
+Delta Output (d_y): [[0.01313207]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.8913193]]
+Error: [[-0.1086807]]
+Delta Output (d_y): [[-0.02233931]]
+----
+Sum Square Error (SSE) epoch ke-88: 0.009749040484244575
+
+----------------------------------
+Epoch 89/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.88516403]]
+Error: [[-0.11483597]]
+Delta Output (d_y): [[-0.02486022]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.91754679]]
+Error: [[0.08245321]]
+Delta Output (d_y): [[0.0130365]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.91794062]]
+Error: [[0.08205938]]
+Delta Output (d_y): [[0.01291492]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.89220916]]
+Error: [[-0.10779084]]
+Delta Output (d_y): [[-0.02198532]]
+----
+Sum Square Error (SSE) epoch ke-89: 0.009584610220159846
+
+----------------------------------
+Epoch 90/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.88614384]]
+Error: [[-0.11385616]]
+Delta Output (d_y): [[-0.02445051]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.91824022]]
+Error: [[0.08175978]]
+Delta Output (d_y): [[0.01282279]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.91862595]]
+Error: [[0.08137405]]
+Delta Output (d_y): [[0.01270463]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.89307815]]
+Error: [[-0.10692185]]
+Delta Output (d_y): [[-0.0216422]]
+----
+Sum Square Error (SSE) epoch ke-90: 0.009425475896313231
+
+----------------------------------
+Epoch 91/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.88710006]]
+Error: [[-0.11289994]]
+Delta Output (d_y): [[-0.02405373]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.9189172]]
+Error: [[0.0810828]]
+Delta Output (d_y): [[0.01261577]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.91929513]]
+Error: [[0.08070487]]
+Delta Output (d_y): [[0.0125009]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.89392708]]
+Error: [[-0.10607292]]
+Delta Output (d_y): [[-0.02130945]]
+----
+Sum Square Error (SSE) epoch ke-91: 0.009271388892972084
+
+----------------------------------
+Epoch 92/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.88803361]]
+Error: [[-0.11196639]]
+Delta Output (d_y): [[-0.02366928]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.91957837]]
+Error: [[0.08042163]]
+Delta Output (d_y): [[0.01241514]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.91994877]]
+Error: [[0.08005123]]
+Delta Output (d_y): [[0.01230341]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.8947567]]
+Error: [[-0.1052433]]
+Delta Output (d_y): [[-0.02098661]]
+----
+Sum Square Error (SSE) epoch ke-92: 0.009122115804866953
+
+----------------------------------
+Epoch 93/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.88894535]]
+Error: [[-0.11105465]]
+Delta Output (d_y): [[-0.02329662]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92022431]]
+Error: [[0.07977569]]
+Delta Output (d_y): [[0.01222062]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92058746]]
+Error: [[0.07941254]]
+Delta Output (d_y): [[0.0121119]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.89556772]]
+Error: [[-0.10443228]]
+Delta Output (d_y): [[-0.02067325]]
+----
+Sum Square Error (SSE) epoch ke-93: 0.008977437299983682
+
+----------------------------------
+Epoch 94/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.88983612]]
+Error: [[-0.11016388]]
+Delta Output (d_y): [[-0.0229352]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92085559]]
+Error: [[0.07914441]]
+Delta Output (d_y): [[0.01203193]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92121173]]
+Error: [[0.07878827]]
+Delta Output (d_y): [[0.0119261]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.89636082]]
+Error: [[-0.10363918]]
+Delta Output (d_y): [[-0.02036896]]
+----
+Sum Square Error (SSE) epoch ke-94: 0.008837147079253406
+
+----------------------------------
+Epoch 95/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.89070669]]
+Error: [[-0.10929331]]
+Delta Output (d_y): [[-0.02258455]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92147276]]
+Error: [[0.07852724]]
+Delta Output (d_y): [[0.01184881]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92182214]]
+Error: [[0.07817786]]
+Delta Output (d_y): [[0.01174575]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.89713664]]
+Error: [[-0.10286336]]
+Delta Output (d_y): [[-0.02007336]]
+----
+Sum Square Error (SSE) epoch ke-95: 0.008701050926905412
+
+----------------------------------
+Epoch 96/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.8915578]]
+Error: [[-0.1084422]]
+Delta Output (d_y): [[-0.02224417]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92207633]]
+Error: [[0.07792367]]
+Delta Output (d_y): [[0.01167104]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92241916]]
+Error: [[0.07758084]]
+Delta Output (d_y): [[0.01157063]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.8978958]]
+Error: [[-0.1021042]]
+Delta Output (d_y): [[-0.01978607]]
+----
+Sum Square Error (SSE) epoch ke-96: 0.008568965842416733
+
+----------------------------------
+Epoch 97/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.89239016]]
+Error: [[-0.10760984]]
+Delta Output (d_y): [[-0.02191365]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92266677]]
+Error: [[0.07733323]]
+Delta Output (d_y): [[0.01149837]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92300329]]
+Error: [[0.07699671]]
+Delta Output (d_y): [[0.01140051]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.89863888]]
+Error: [[-0.10136112]]
+Delta Output (d_y): [[-0.01950676]]
+----
+Sum Square Error (SSE) epoch ke-97: 0.008440719246011148
+
+----------------------------------
+Epoch 98/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.89320443]]
+Error: [[-0.10679557]]
+Delta Output (d_y): [[-0.02159255]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92324456]]
+Error: [[0.07675544]]
+Delta Output (d_y): [[0.0113306]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92357496]]
+Error: [[0.07642504]]
+Delta Output (d_y): [[0.01123519]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.89936643]]
+Error: [[-0.10063357]]
+Delta Output (d_y): [[-0.0192351]]
+----
+Sum Square Error (SSE) epoch ke-98: 0.008316148250554338
+
+----------------------------------
+Epoch 99/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.89400126]]
+Error: [[-0.10599874]]
+Delta Output (d_y): [[-0.02128049]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92381012]]
+Error: [[0.07618988]]
+Delta Output (d_y): [[0.01116752]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92413461]]
+Error: [[0.07586539]]
+Delta Output (d_y): [[0.01107447]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.90007899]]
+Error: [[-0.09992101]]
+Delta Output (d_y): [[-0.01897078]]
+----
+Sum Square Error (SSE) epoch ke-99: 0.008195098993474051
+
+----------------------------------
+Epoch 100/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.89478124]]
+Error: [[-0.10521876]]
+Delta Output (d_y): [[-0.0209771]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92436389]]
+Error: [[0.07563611]]
+Delta Output (d_y): [[0.01100894]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92468266]]
+Error: [[0.07531734]]
+Delta Output (d_y): [[0.01091815]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.90077705]]
+Error: [[-0.09922295]]
+Delta Output (d_y): [[-0.01871352]]
+----
+Sum Square Error (SSE) epoch ke-100: 0.008077426023022654
+
+----------------------------------
+Epoch 101/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.89554496]]
+Error: [[-0.10445504]]
+Delta Output (d_y): [[-0.02068202]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92490626]]
+Error: [[0.07509374]]
+Delta Output (d_y): [[0.01085468]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92521948]]
+Error: [[0.07478052]]
+Delta Output (d_y): [[0.01076607]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.90146109]]
+Error: [[-0.09853891]]
+Delta Output (d_y): [[-0.01846303]]
+----
+Sum Square Error (SSE) epoch ke-101: 0.007962991733805283
+
+----------------------------------
+Epoch 102/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.89629297]]
+Error: [[-0.10370703]]
+Delta Output (d_y): [[-0.02039491]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92543761]]
+Error: [[0.07456239]]
+Delta Output (d_y): [[0.01070457]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92574546]]
+Error: [[0.07425454]]
+Delta Output (d_y): [[0.01061805]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.90213158]]
+Error: [[-0.09786842]]
+Delta Output (d_y): [[-0.01821905]]
+----
+Sum Square Error (SSE) epoch ke-102: 0.00785166584703028
+
+----------------------------------
+Epoch 103/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.89702578]]
+Error: [[-0.10297422]]
+Delta Output (d_y): [[-0.02011547]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.9259583]]
+Error: [[0.0740417]]
+Delta Output (d_y): [[0.01055844]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92626094]]
+Error: [[0.07373906]]
+Delta Output (d_y): [[0.01047395]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.90278895]]
+Error: [[-0.09721105]]
+Delta Output (d_y): [[-0.01798133]]
+----
+Sum Square Error (SSE) epoch ke-103: 0.007743324931411123
+
+----------------------------------
+Epoch 104/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.89774391]]
+Error: [[-0.10225609]]
+Delta Output (d_y): [[-0.0198434]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92646869]]
+Error: [[0.07353131]]
+Delta Output (d_y): [[0.01041614]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92676627]]
+Error: [[0.07323373]]
+Delta Output (d_y): [[0.01033359]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.90343361]]
+Error: [[-0.09656639]]
+Delta Output (d_y): [[-0.01774965]]
+----
+Sum Square Error (SSE) epoch ke-104: 0.007637851961065844
+
+----------------------------------
+Epoch 105/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.89844782]]
+Error: [[-0.10155218]]
+Delta Output (d_y): [[-0.0195784]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92696909]]
+Error: [[0.07303091]]
+Delta Output (d_y): [[0.01027752]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92726178]]
+Error: [[0.07273822]]
+Delta Output (d_y): [[0.01019685]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.90406598]]
+Error: [[-0.09593402]]
+Delta Output (d_y): [[-0.01752376]]
+----
+Sum Square Error (SSE) epoch ke-105: 0.007535135907130392
+
+----------------------------------
+Epoch 106/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.89913797]]
+Error: [[-0.10086203]]
+Delta Output (d_y): [[-0.01932021]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92745983]]
+Error: [[0.07254017]]
+Delta Output (d_y): [[0.01014244]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92774777]]
+Error: [[0.07225223]]
+Delta Output (d_y): [[0.01006359]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.90468643]]
+Error: [[-0.09531357]]
+Delta Output (d_y): [[-0.01730346]]
+----
+Sum Square Error (SSE) epoch ke-106: 0.007435071360130484
+
+----------------------------------
+Epoch 107/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.89981481]]
+Error: [[-0.10018519]]
+Delta Output (d_y): [[-0.01906858]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92794122]]
+Error: [[0.07205878]]
+Delta Output (d_y): [[0.01001077]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92822453]]
+Error: [[0.07177547]]
+Delta Output (d_y): [[0.00993367]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.90529533]]
+Error: [[-0.09470467]]
+Delta Output (d_y): [[-0.01708855]]
+----
+Sum Square Error (SSE) epoch ke-107: 0.007337558180448414
+
+----------------------------------
+Epoch 108/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.90047874]]
+Error: [[-0.09952126]]
+Delta Output (d_y): [[-0.01882326]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92841353]]
+Error: [[0.07158647]]
+Delta Output (d_y): [[0.00988239]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92869236]]
+Error: [[0.07130764]]
+Delta Output (d_y): [[0.00980697]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.90589303]]
+Error: [[-0.09410697]]
+Delta Output (d_y): [[-0.01687882]]
+----
+Sum Square Error (SSE) epoch ke-108: 0.007242501174481461
+
+----------------------------------
+Epoch 109/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.90113017]]
+Error: [[-0.09886983]]
+Delta Output (d_y): [[-0.01858401]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92887705]]
+Error: [[0.07112295]]
+Delta Output (d_y): [[0.00975717]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92915153]]
+Error: [[0.07084847]]
+Delta Output (d_y): [[0.00968339]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.90647986]]
+Error: [[-0.09352014]]
+Delta Output (d_y): [[-0.0166741]]
+----
+Sum Square Error (SSE) epoch ke-109: 0.007149809794320096
+
+----------------------------------
+Epoch 110/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.90176947]]
+Error: [[-0.09823053]]
+Delta Output (d_y): [[-0.01835062]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92933205]]
+Error: [[0.07066795]]
+Delta Output (d_y): [[0.00963501]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.92960229]]
+Error: [[0.07039771]]
+Delta Output (d_y): [[0.00956279]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.90705615]]
+Error: [[-0.09294385]]
+Delta Output (d_y): [[-0.01647422]]
+----
+Sum Square Error (SSE) epoch ke-110: 0.00705939785898131
+
+----------------------------------
+Epoch 111/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.90239702]]
+Error: [[-0.09760298]]
+Delta Output (d_y): [[-0.01812288]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.92977878]]
+Error: [[0.07022122]]
+Delta Output (d_y): [[0.00951578]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.9300449]]
+Error: [[0.0699551]]
+Delta Output (d_y): [[0.00944509]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.90762221]]
+Error: [[-0.09237779]]
+Delta Output (d_y): [[-0.01627899]]
+----
+Sum Square Error (SSE) epoch ke-111: 0.006971183295417165
+
+----------------------------------
+Epoch 112/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.90301317]]
+Error: [[-0.09698683]]
+Delta Output (d_y): [[-0.01790059]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93021747]]
+Error: [[0.06978253]]
+Delta Output (d_y): [[0.00939939]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.9304796]]
+Error: [[0.0695204]]
+Delta Output (d_y): [[0.00933017]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.90817833]]
+Error: [[-0.09182167]]
+Delta Output (d_y): [[-0.01608827]]
+----
+Sum Square Error (SSE) epoch ke-112: 0.006885087897684881
+
+----------------------------------
+Epoch 113/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.90361825]]
+Error: [[-0.09638175]]
+Delta Output (d_y): [[-0.01768355]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93064838]]
+Error: [[0.06935162]]
+Delta Output (d_y): [[0.00928574]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93090661]]
+Error: [[0.06909339]]
+Delta Output (d_y): [[0.00921795]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.90872479]]
+Error: [[-0.09127521]]
+Delta Output (d_y): [[-0.0159019]]
+----
+Sum Square Error (SSE) epoch ke-113: 0.0068010371028126475
+
+----------------------------------
+Epoch 114/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.90421258]]
+Error: [[-0.09578742]]
+Delta Output (d_y): [[-0.01747159]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93107172]]
+Error: [[0.06892828]]
+Delta Output (d_y): [[0.00917473]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93132616]]
+Error: [[0.06867384]]
+Delta Output (d_y): [[0.00910832]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.90926188]]
+Error: [[-0.09073812]]
+Delta Output (d_y): [[-0.01571973]]
+----
+Sum Square Error (SSE) epoch ke-114: 0.0067189597820295635
+
+----------------------------------
+Epoch 115/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.90479648]]
+Error: [[-0.09520352]]
+Delta Output (d_y): [[-0.01726452]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93148771]]
+Error: [[0.06851229]]
+Delta Output (d_y): [[0.00906628]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93173846]]
+Error: [[0.06826154]]
+Delta Output (d_y): [[0.0090012]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.90978986]]
+Error: [[-0.09021014]]
+Delta Output (d_y): [[-0.01554162]]
+----
+Sum Square Error (SSE) epoch ke-115: 0.006638788046147065
+
+----------------------------------
+Epoch 116/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.90537025]]
+Error: [[-0.09462975]]
+Delta Output (d_y): [[-0.01706219]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93189655]]
+Error: [[0.06810345]]
+Delta Output (d_y): [[0.00896029]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93214371]]
+Error: [[0.06785629]]
+Delta Output (d_y): [[0.00889651]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91030897]]
+Error: [[-0.08969103]]
+Delta Output (d_y): [[-0.01536745]]
+----
+Sum Square Error (SSE) epoch ke-116: 0.006560457063987977
+
+----------------------------------
+Epoch 117/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.90593416]]
+Error: [[-0.09406584]]
+Delta Output (d_y): [[-0.01686443]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93229845]]
+Error: [[0.06770155]]
+Delta Output (d_y): [[0.00885669]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.9325421]]
+Error: [[0.0674579]]
+Delta Output (d_y): [[0.00879416]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91081946]]
+Error: [[-0.08918054]]
+Delta Output (d_y): [[-0.01519707]]
+----
+Sum Square Error (SSE) epoch ke-117: 0.006483904892855968
+
+----------------------------------
+Epoch 118/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.9064885]]
+Error: [[-0.0935115]]
+Delta Output (d_y): [[-0.0166711]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93269359]]
+Error: [[0.06730641]]
+Delta Output (d_y): [[0.0087554]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93293384]]
+Error: [[0.06706616]]
+Delta Output (d_y): [[0.00869408]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91132156]]
+Error: [[-0.08867844]]
+Delta Output (d_y): [[-0.01503038]]
+----
+Sum Square Error (SSE) epoch ke-118: 0.0064090723201260715
+
+----------------------------------
+Epoch 119/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.90703352]]
+Error: [[-0.09296648]]
+Delta Output (d_y): [[-0.01648204]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93308217]]
+Error: [[0.06691783]]
+Delta Output (d_y): [[0.00865633]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93331909]]
+Error: [[0.06668091]]
+Delta Output (d_y): [[0.0085962]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.9118155]]
+Error: [[-0.0881845]]
+Delta Output (d_y): [[-0.01486724]]
+----
+Sum Square Error (SSE) epoch ke-119: 0.006335902715116337
+
+----------------------------------
+Epoch 120/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.90756949]]
+Error: [[-0.09243051]]
+Delta Output (d_y): [[-0.01629713]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93346436]]
+Error: [[0.06653564]]
+Delta Output (d_y): [[0.00855943]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93369804]]
+Error: [[0.06630196]]
+Delta Output (d_y): [[0.00850044]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.9123015]]
+Error: [[-0.0876985]]
+Delta Output (d_y): [[-0.01470756]]
+----
+Sum Square Error (SSE) epoch ke-120: 0.006264341890471972
+
+----------------------------------
+Epoch 121/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.90809665]]
+Error: [[-0.09190335]]
+Delta Output (d_y): [[-0.01611622]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93384033]]
+Error: [[0.06615967]]
+Delta Output (d_y): [[0.00846462]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93407085]]
+Error: [[0.06592915]]
+Delta Output (d_y): [[0.00840673]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91277976]]
+Error: [[-0.08722024]]
+Delta Output (d_y): [[-0.01455122]]
+----
+Sum Square Error (SSE) epoch ke-121: 0.006194337972358513
+
+----------------------------------
+Epoch 122/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.90861523]]
+Error: [[-0.09138477]]
+Delta Output (d_y): [[-0.01593918]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93421024]]
+Error: [[0.06578976]]
+Delta Output (d_y): [[0.00837183]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93443768]]
+Error: [[0.06556232]]
+Delta Output (d_y): [[0.00831502]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91325048]]
+Error: [[-0.08674952]]
+Delta Output (d_y): [[-0.01439813]]
+----
+Sum Square Error (SSE) epoch ke-122: 0.006125841278819092
+
+----------------------------------
+Epoch 123/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.90912546]]
+Error: [[-0.09087454]]
+Delta Output (d_y): [[-0.01576591]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93457426]]
+Error: [[0.06542574]]
+Delta Output (d_y): [[0.008281]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93479869]]
+Error: [[0.06520131]]
+Delta Output (d_y): [[0.00822524]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91371387]]
+Error: [[-0.08628613]]
+Delta Output (d_y): [[-0.01424817]]
+----
+Sum Square Error (SSE) epoch ke-123: 0.006058804205704196
+
+----------------------------------
+Epoch 124/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.90962756]]
+Error: [[-0.09037244]]
+Delta Output (d_y): [[-0.01559627]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93493253]]
+Error: [[0.06506747]]
+Delta Output (d_y): [[0.00819207]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93515403]]
+Error: [[0.06484597]]
+Delta Output (d_y): [[0.00813732]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.9141701]]
+Error: [[-0.0858299]]
+Delta Output (d_y): [[-0.01410125]]
+----
+Sum Square Error (SSE) epoch ke-124: 0.00599318111963098
+
+----------------------------------
+Epoch 125/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91012174]]
+Error: [[-0.08987826]]
+Delta Output (d_y): [[-0.01543016]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93528521]]
+Error: [[0.06471479]]
+Delta Output (d_y): [[0.00810498]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93550384]]
+Error: [[0.06449616]]
+Delta Output (d_y): [[0.00805122]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91461936]]
+Error: [[-0.08538064]]
+Delta Output (d_y): [[-0.01395729]]
+----
+Sum Square Error (SSE) epoch ke-125: 0.005928928257472706
+
+----------------------------------
+Epoch 126/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91060821]]
+Error: [[-0.08939179]]
+Delta Output (d_y): [[-0.01526746]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93563244]]
+Error: [[0.06436756]]
+Delta Output (d_y): [[0.00801968]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93584827]]
+Error: [[0.06415173]]
+Delta Output (d_y): [[0.00796688]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91506182]]
+Error: [[-0.08493818]]
+Delta Output (d_y): [[-0.0138162]]
+----
+Sum Square Error (SSE) epoch ke-126: 0.005866003631919433
+
+----------------------------------
+Epoch 127/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91108715]]
+Error: [[-0.08891285]]
+Delta Output (d_y): [[-0.01510809]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93597435]]
+Error: [[0.06402565]]
+Delta Output (d_y): [[0.00793611]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93618744]]
+Error: [[0.06381256]]
+Delta Output (d_y): [[0.00788424]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91549765]]
+Error: [[-0.08450235]]
+Delta Output (d_y): [[-0.01367789]]
+----
+Sum Square Error (SSE) epoch ke-127: 0.005804366942687114
+
+----------------------------------
+Epoch 128/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91155877]]
+Error: [[-0.08844123]]
+Delta Output (d_y): [[-0.01495193]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93631107]]
+Error: [[0.06368893]]
+Delta Output (d_y): [[0.00785422]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.9365215]]
+Error: [[0.0634785]]
+Delta Output (d_y): [[0.00780325]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91592701]]
+Error: [[-0.08407299]]
+Delta Output (d_y): [[-0.01354228]]
+----
+Sum Square Error (SSE) epoch ke-128: 0.005743979492985937
+
+----------------------------------
+Epoch 129/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91202323]]
+Error: [[-0.08797677]]
+Delta Output (d_y): [[-0.01479889]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93664274]]
+Error: [[0.06335726]]
+Delta Output (d_y): [[0.00777396]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93685056]]
+Error: [[0.06314944]]
+Delta Output (d_y): [[0.00772387]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91635007]]
+Error: [[-0.08364993]]
+Delta Output (d_y): [[-0.0134093]]
+----
+Sum Square Error (SSE) epoch ke-129: 0.005684804110888463
+
+----------------------------------
+Epoch 130/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91248073]]
+Error: [[-0.08751927]]
+Delta Output (d_y): [[-0.01464888]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93696948]]
+Error: [[0.06303052]]
+Delta Output (d_y): [[0.00769528]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93717475]]
+Error: [[0.06282525]]
+Delta Output (d_y): [[0.00764605]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91676696]]
+Error: [[-0.08323304]]
+Delta Output (d_y): [[-0.01327886]]
+----
+Sum Square Error (SSE) epoch ke-130: 0.005626805075266618
+
+----------------------------------
+Epoch 131/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91293142]]
+Error: [[-0.08706858]]
+Delta Output (d_y): [[-0.01450181]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93729141]]
+Error: [[0.06270859]]
+Delta Output (d_y): [[0.00761814]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93749419]]
+Error: [[0.06250581]]
+Delta Output (d_y): [[0.00756974]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91717784]]
+Error: [[-0.08282216]]
+Delta Output (d_y): [[-0.0131509]]
+----
+Sum Square Error (SSE) epoch ke-131: 0.005569948045991108
+
+----------------------------------
+Epoch 132/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91337548]]
+Error: [[-0.08662452]]
+Delta Output (d_y): [[-0.0143576]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93760864]]
+Error: [[0.06239136]]
+Delta Output (d_y): [[0.00754249]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93780898]]
+Error: [[0.06219102]]
+Delta Output (d_y): [[0.00749491]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91758285]]
+Error: [[-0.08241715]]
+Delta Output (d_y): [[-0.01302535]]
+----
+Sum Square Error (SSE) epoch ke-132: 0.005514199998110577
+
+----------------------------------
+Epoch 133/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91381306]]
+Error: [[-0.08618694]]
+Delta Output (d_y): [[-0.01421617]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93792129]]
+Error: [[0.06207871]]
+Delta Output (d_y): [[0.0074683]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93811924]]
+Error: [[0.06188076]]
+Delta Output (d_y): [[0.0074215]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91798212]]
+Error: [[-0.08201788]]
+Delta Output (d_y): [[-0.01290214]]
+----
+Sum Square Error (SSE) epoch ke-133: 0.00545952915974892
+
+----------------------------------
+Epoch 134/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91424431]]
+Error: [[-0.08575569]]
+Delta Output (d_y): [[-0.01407743]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93822945]]
+Error: [[0.06177055]]
+Delta Output (d_y): [[0.00739551]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93842508]]
+Error: [[0.06157492]]
+Delta Output (d_y): [[0.00734948]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.9183758]]
+Error: [[-0.0816242]]
+Delta Output (d_y): [[-0.0127812]]
+----
+Sum Square Error (SSE) epoch ke-134: 0.00540590495347827
+
+----------------------------------
+Epoch 135/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91466939]]
+Error: [[-0.08533061]]
+Delta Output (d_y): [[-0.01394131]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93853325]]
+Error: [[0.06146675]]
+Delta Output (d_y): [[0.00732409]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93872659]]
+Error: [[0.06127341]]
+Delta Output (d_y): [[0.00727881]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.918764]]
+Error: [[-0.081236]]
+Delta Output (d_y): [[-0.01266247]]
+----
+Sum Square Error (SSE) epoch ke-135: 0.005353297940943501
+
+----------------------------------
+Epoch 136/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91508844]]
+Error: [[-0.08491156]]
+Delta Output (d_y): [[-0.01380773]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93883277]]
+Error: [[0.06116723]]
+Delta Output (d_y): [[0.00725401]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93902388]]
+Error: [[0.06097612]]
+Delta Output (d_y): [[0.00720946]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91914686]]
+Error: [[-0.08085314]]
+Delta Output (d_y): [[-0.0125459]]
+----
+Sum Square Error (SSE) epoch ke-136: 0.005301679770530169
+
+----------------------------------
+Epoch 137/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91550161]]
+Error: [[-0.08449839]]
+Delta Output (d_y): [[-0.01367664]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93912813]]
+Error: [[0.06087187]]
+Delta Output (d_y): [[0.00718522]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93931705]]
+Error: [[0.06068295]]
+Delta Output (d_y): [[0.00714138]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91952449]]
+Error: [[-0.08047551]]
+Delta Output (d_y): [[-0.01243143]]
+----
+Sum Square Error (SSE) epoch ke-137: 0.005251023127882966
+
+----------------------------------
+Epoch 138/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91590901]]
+Error: [[-0.08409099]]
+Delta Output (d_y): [[-0.01354796]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.9394194]]
+Error: [[0.0605806]]
+Delta Output (d_y): [[0.00711769]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93960618]]
+Error: [[0.06039382]]
+Delta Output (d_y): [[0.00707455]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.91989701]]
+Error: [[-0.08010299]]
+Delta Output (d_y): [[-0.012319]]
+----
+Sum Square Error (SSE) epoch ke-138: 0.00520130168909552
+
+----------------------------------
+Epoch 139/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91631079]]
+Error: [[-0.08368921]]
+Delta Output (d_y): [[-0.01342162]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93970668]]
+Error: [[0.06029332]]
+Delta Output (d_y): [[0.00705138]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.93989137]]
+Error: [[0.06010863]]
+Delta Output (d_y): [[0.00700892]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92026453]]
+Error: [[-0.07973547]]
+Delta Output (d_y): [[-0.01220855]]
+----
+Sum Square Error (SSE) epoch ke-139: 0.005152490076405157
+
+----------------------------------
+Epoch 140/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91670707]]
+Error: [[-0.08329293]]
+Delta Output (d_y): [[-0.01329756]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.93999007]]
+Error: [[0.06000993]]
+Delta Output (d_y): [[0.00698628]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.9401727]]
+Error: [[0.0598273]]
+Delta Output (d_y): [[0.00694447]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92062717]]
+Error: [[-0.07937283]]
+Delta Output (d_y): [[-0.01210004]]
+----
+Sum Square Error (SSE) epoch ke-140: 0.005104563816237954
+
+----------------------------------
+Epoch 141/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91709798]]
+Error: [[-0.08290202]]
+Delta Output (d_y): [[-0.01317573]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94026965]]
+Error: [[0.05973035]]
+Delta Output (d_y): [[0.00692233]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94045027]]
+Error: [[0.05954973]]
+Delta Output (d_y): [[0.00688117]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92098502]]
+Error: [[-0.07901498]]
+Delta Output (d_y): [[-0.01199341]]
+----
+Sum Square Error (SSE) epoch ke-141: 0.0050574992994602466
+
+----------------------------------
+Epoch 142/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91748363]]
+Error: [[-0.08251637]]
+Delta Output (d_y): [[-0.01305605]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.9405455]]
+Error: [[0.0594545]]
+Delta Output (d_y): [[0.00685951]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94072415]]
+Error: [[0.05927585]]
+Delta Output (d_y): [[0.00681898]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.9213382]]
+Error: [[-0.0786618]]
+Delta Output (d_y): [[-0.01188862]]
+----
+Sum Square Error (SSE) epoch ke-142: 0.005011273743702624
+
+----------------------------------
+Epoch 143/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91786413]]
+Error: [[-0.08213587]]
+Delta Output (d_y): [[-0.01293849]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.9408177]]
+Error: [[0.0591823]]
+Delta Output (d_y): [[0.0067978]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94099442]]
+Error: [[0.05900558]]
+Delta Output (d_y): [[0.00675788]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.9216868]]
+Error: [[-0.0783132]]
+Delta Output (d_y): [[-0.01178562]]
+----
+Sum Square Error (SSE) epoch ke-143: 0.004965865157631724
+
+----------------------------------
+Epoch 144/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91823961]]
+Error: [[-0.08176039]]
+Delta Output (d_y): [[-0.01282297]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94108633]]
+Error: [[0.05891367]]
+Delta Output (d_y): [[0.00673716]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94126116]]
+Error: [[0.05873884]]
+Delta Output (d_y): [[0.00669784]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92203092]]
+Error: [[-0.07796908]]
+Delta Output (d_y): [[-0.01168437]]
+----
+Sum Square Error (SSE) epoch ke-144: 0.004921252307053558
+
+----------------------------------
+Epoch 145/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91861017]]
+Error: [[-0.08138983]]
+Delta Output (d_y): [[-0.01270946]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94135148]]
+Error: [[0.05864852]]
+Delta Output (d_y): [[0.00667757]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94152445]]
+Error: [[0.05847555]]
+Delta Output (d_y): [[0.00663883]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92237066]]
+Error: [[-0.07762934]]
+Delta Output (d_y): [[-0.01158481]]
+----
+Sum Square Error (SSE) epoch ke-145: 0.004877414682740109
+
+----------------------------------
+Epoch 146/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91897591]]
+Error: [[-0.08102409]]
+Delta Output (d_y): [[-0.01259789]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.9416132]]
+Error: [[0.0583868]]
+Delta Output (d_y): [[0.00661899]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94178435]]
+Error: [[0.05821565]]
+Delta Output (d_y): [[0.00658083]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.9227061]]
+Error: [[-0.0772939]]
+Delta Output (d_y): [[-0.01148691]]
+----
+Sum Square Error (SSE) epoch ke-146: 0.004834332469877875
+
+----------------------------------
+Epoch 147/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91933694]]
+Error: [[-0.08066306]]
+Delta Output (d_y): [[-0.01248822]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94187158]]
+Error: [[0.05812842]]
+Delta Output (d_y): [[0.00656142]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94204095]]
+Error: [[0.05795905]]
+Delta Output (d_y): [[0.0065238]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92303734]]
+Error: [[-0.07696266]]
+Delta Output (d_y): [[-0.01139063]]
+----
+Sum Square Error (SSE) epoch ke-147: 0.004791986519044179
+
+----------------------------------
+Epoch 148/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.91969335]]
+Error: [[-0.08030665]]
+Delta Output (d_y): [[-0.0123804]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94212668]]
+Error: [[0.05787332]]
+Delta Output (d_y): [[0.00650481]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.9422943]]
+Error: [[0.0577057]]
+Delta Output (d_y): [[0.00646774]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92336445]]
+Error: [[-0.07663555]]
+Delta Output (d_y): [[-0.01129593]]
+----
+Sum Square Error (SSE) epoch ke-148: 0.004750358318622835
+
+----------------------------------
+Epoch 149/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92004525]]
+Error: [[-0.07995475]]
+Delta Output (d_y): [[-0.01227439]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94237858]]
+Error: [[0.05762142]]
+Delta Output (d_y): [[0.00644914]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94254448]]
+Error: [[0.05745552]]
+Delta Output (d_y): [[0.00641261]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92368754]]
+Error: [[-0.07631246]]
+Delta Output (d_y): [[-0.01120277]]
+----
+Sum Square Error (SSE) epoch ke-149: 0.0047094299685769125
+
+----------------------------------
+Epoch 150/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92039272]]
+Error: [[-0.07960728]]
+Delta Output (d_y): [[-0.01217014]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94262733]]
+Error: [[0.05737267]]
+Delta Output (d_y): [[0.0063944]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94279155]]
+Error: [[0.05720845]]
+Delta Output (d_y): [[0.00635838]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92400666]]
+Error: [[-0.07599334]]
+Delta Output (d_y): [[-0.01111111]]
+----
+Sum Square Error (SSE) epoch ke-150: 0.004669184155501412
+
+----------------------------------
+Epoch 151/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92073585]]
+Error: [[-0.07926415]]
+Delta Output (d_y): [[-0.01206761]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94287301]]
+Error: [[0.05712699]]
+Delta Output (d_y): [[0.00634055]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94303557]]
+Error: [[0.05696443]]
+Delta Output (d_y): [[0.00630505]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92432192]]
+Error: [[-0.07567808]]
+Delta Output (d_y): [[-0.01102092]]
+----
+Sum Square Error (SSE) epoch ke-151: 0.004629604128883729
+
+----------------------------------
+Epoch 152/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92107475]]
+Error: [[-0.07892525]]
+Delta Output (d_y): [[-0.01196675]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94311566]]
+Error: [[0.05688434]]
+Delta Output (d_y): [[0.00628759]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94327661]]
+Error: [[0.05672339]]
+Delta Output (d_y): [[0.00625258]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92463338]]
+Error: [[-0.07536662]]
+Delta Output (d_y): [[-0.01093216]]
+----
+Sum Square Error (SSE) epoch ke-152: 0.004590673678504438
+
+----------------------------------
+Epoch 153/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92140948]]
+Error: [[-0.07859052]]
+Delta Output (d_y): [[-0.01186753]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94335537]]
+Error: [[0.05664463]]
+Delta Output (d_y): [[0.00623548]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94351472]]
+Error: [[0.05648528]]
+Delta Output (d_y): [[0.00620095]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92494111]]
+Error: [[-0.07505889]]
+Delta Output (d_y): [[-0.0108448]]
+----
+Sum Square Error (SSE) epoch ke-153: 0.004552377112915048
+
+----------------------------------
+Epoch 154/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92174013]]
+Error: [[-0.07825987]]
+Delta Output (d_y): [[-0.0117699]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94359217]]
+Error: [[0.05640783]]
+Delta Output (d_y): [[0.00618421]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94374996]]
+Error: [[0.05625004]]
+Delta Output (d_y): [[0.00615016]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.9252452]]
+Error: [[-0.0747548]]
+Delta Output (d_y): [[-0.01075881]]
+----
+Sum Square Error (SSE) epoch ke-154: 0.004514699238933563
+
+----------------------------------
+Epoch 155/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92206679]]
+Error: [[-0.07793321]]
+Delta Output (d_y): [[-0.01167384]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94382614]]
+Error: [[0.05617386]]
+Delta Output (d_y): [[0.00613375]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94398239]]
+Error: [[0.05601761]]
+Delta Output (d_y): [[0.00610016]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92554571]]
+Error: [[-0.07445429]]
+Delta Output (d_y): [[-0.01067415]]
+----
+Sum Square Error (SSE) epoch ke-155: 0.004477625342102099
+
+----------------------------------
+Epoch 156/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92238953]]
+Error: [[-0.07761047]]
+Delta Output (d_y): [[-0.01157929]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94405732]]
+Error: [[0.05594268]]
+Delta Output (d_y): [[0.00608409]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94421207]]
+Error: [[0.05578793]]
+Delta Output (d_y): [[0.00605096]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92584271]]
+Error: [[-0.07415729]]
+Delta Output (d_y): [[-0.01059079]]
+----
+Sum Square Error (SSE) epoch ke-156: 0.00444114116805456
+
+----------------------------------
+Epoch 157/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92270843]]
+Error: [[-0.07729157]]
+Delta Output (d_y): [[-0.01148623]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94428577]]
+Error: [[0.05571423]]
+Delta Output (d_y): [[0.00603521]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94443904]]
+Error: [[0.05556096]]
+Delta Output (d_y): [[0.00600252]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92613627]]
+Error: [[-0.07386373]]
+Delta Output (d_y): [[-0.01050871]]
+----
+Sum Square Error (SSE) epoch ke-157: 0.004405232904745315
+
+----------------------------------
+Epoch 158/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92302357]]
+Error: [[-0.07697643]]
+Delta Output (d_y): [[-0.01139463]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94451155]]
+Error: [[0.05548845]]
+Delta Output (d_y): [[0.00598709]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94466336]]
+Error: [[0.05533664]]
+Delta Output (d_y): [[0.00595484]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92642645]]
+Error: [[-0.07357355]]
+Delta Output (d_y): [[-0.01042787]]
+----
+Sum Square Error (SSE) epoch ke-158: 0.004369887165492994
+
+----------------------------------
+Epoch 159/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92333502]]
+Error: [[-0.07666498]]
+Delta Output (d_y): [[-0.01130444]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.9447347]]
+Error: [[0.0552653]]
+Delta Output (d_y): [[0.00593971]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94488508]]
+Error: [[0.05511492]]
+Delta Output (d_y): [[0.00590789]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92671332]]
+Error: [[-0.07328668]]
+Delta Output (d_y): [[-0.01034826]]
+----
+Sum Square Error (SSE) epoch ke-159: 0.004335090972796102
+
+----------------------------------
+Epoch 160/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92364284]]
+Error: [[-0.07635716]]
+Delta Output (d_y): [[-0.01121564]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94495527]]
+Error: [[0.05504473]]
+Delta Output (d_y): [[0.00589306]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94510425]]
+Error: [[0.05489575]]
+Delta Output (d_y): [[0.00586166]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92699694]]
+Error: [[-0.07300306]]
+Delta Output (d_y): [[-0.01026983]]
+----
+Sum Square Error (SSE) epoch ke-160: 0.004300831742879966
+
+----------------------------------
+Epoch 161/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92394711]]
+Error: [[-0.07605289]]
+Delta Output (d_y): [[-0.01112819]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94517332]]
+Error: [[0.05482668]]
+Delta Output (d_y): [[0.00584712]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94532092]]
+Error: [[0.05467908]]
+Delta Output (d_y): [[0.00581612]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92727737]]
+Error: [[-0.07272263]]
+Delta Output (d_y): [[-0.01019256]]
+----
+Sum Square Error (SSE) epoch ke-161: 0.004267097270936768
+
+----------------------------------
+Epoch 162/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.9242479]]
+Error: [[-0.0757521]]
+Delta Output (d_y): [[-0.01104207]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94538889]]
+Error: [[0.05461111]]
+Delta Output (d_y): [[0.00580188]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94553513]]
+Error: [[0.05446487]]
+Delta Output (d_y): [[0.00577128]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92755467]]
+Error: [[-0.07244533]]
+Delta Output (d_y): [[-0.01011643]]
+----
+Sum Square Error (SSE) epoch ke-162: 0.004233875717022708
+
+----------------------------------
+Epoch 163/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92454526]]
+Error: [[-0.07545474]]
+Delta Output (d_y): [[-0.01095724]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94560202]]
+Error: [[0.05439798]]
+Delta Output (d_y): [[0.00575731]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94574693]]
+Error: [[0.05425307]]
+Delta Output (d_y): [[0.0057271]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92782889]]
+Error: [[-0.07217111]]
+Delta Output (d_y): [[-0.01004142]]
+----
+Sum Square Error (SSE) epoch ke-163: 0.004201155592578624
+
+----------------------------------
+Epoch 164/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92483927]]
+Error: [[-0.07516073]]
+Delta Output (d_y): [[-0.01087368]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94581276]]
+Error: [[0.05418724]]
+Delta Output (d_y): [[0.00571341]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94595636]]
+Error: [[0.05404364]]
+Delta Output (d_y): [[0.00568358]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.9281001]]
+Error: [[-0.0718999]]
+Delta Output (d_y): [[-0.0099675]]
+----
+Sum Square Error (SSE) epoch ke-164: 0.004168925747542059
+
+----------------------------------
+Epoch 165/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92512998]]
+Error: [[-0.07487002]]
+Delta Output (d_y): [[-0.01079136]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94602116]]
+Error: [[0.05397884]]
+Delta Output (d_y): [[0.00567015]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94616347]]
+Error: [[0.05383653]]
+Delta Output (d_y): [[0.0056407]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92836834]]
+Error: [[-0.07163166]]
+Delta Output (d_y): [[-0.00989464]]
+----
+Sum Square Error (SSE) epoch ke-165: 0.004137175358020865
+
+----------------------------------
+Epoch 166/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92541745]]
+Error: [[-0.07458255]]
+Delta Output (d_y): [[-0.01071024]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94622726]]
+Error: [[0.05377274]]
+Delta Output (d_y): [[0.00562753]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.9463683]]
+Error: [[0.0536317]]
+Delta Output (d_y): [[0.00559845]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92863367]]
+Error: [[-0.07136633]]
+Delta Output (d_y): [[-0.00982283]]
+----
+Sum Square Error (SSE) epoch ke-166: 0.004105893914500028
+
+----------------------------------
+Epoch 167/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92570175]]
+Error: [[-0.07429825]]
+Delta Output (d_y): [[-0.01063032]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94643109]]
+Error: [[0.05356891]]
+Delta Output (d_y): [[0.00558553]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94657089]]
+Error: [[0.05342911]]
+Delta Output (d_y): [[0.00555682]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92889615]]
+Error: [[-0.07110385]]
+Delta Output (d_y): [[-0.00975203]]
+----
+Sum Square Error (SSE) epoch ke-167: 0.004075071210555124
+
+----------------------------------
+Epoch 168/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92598294]]
+Error: [[-0.07401706]]
+Delta Output (d_y): [[-0.01055155]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94663271]]
+Error: [[0.05336729]]
+Delta Output (d_y): [[0.00554414]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94677128]]
+Error: [[0.05322872]]
+Delta Output (d_y): [[0.00551578]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92915581]]
+Error: [[-0.07084419]]
+Delta Output (d_y): [[-0.00968224]]
+----
+Sum Square Error (SSE) epoch ke-168: 0.004044697332047148
+
+----------------------------------
+Epoch 169/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92626105]]
+Error: [[-0.07373895]]
+Delta Output (d_y): [[-0.01047391]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94683214]]
+Error: [[0.05316786]]
+Delta Output (d_y): [[0.00550335]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94696951]]
+Error: [[0.05303049]]
+Delta Output (d_y): [[0.00547533]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92941272]]
+Error: [[-0.07058728]]
+Delta Output (d_y): [[-0.00961342]]
+----
+Sum Square Error (SSE) epoch ke-169: 0.004014762646775055
+
+----------------------------------
+Epoch 170/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92653617]]
+Error: [[-0.07346383]]
+Delta Output (d_y): [[-0.01039739]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94702943]]
+Error: [[0.05297057]]
+Delta Output (d_y): [[0.00546313]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94716561]]
+Error: [[0.05283439]]
+Delta Output (d_y): [[0.00543546]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92966692]]
+Error: [[-0.07033308]]
+Delta Output (d_y): [[-0.00954557]]
+----
+Sum Square Error (SSE) epoch ke-170: 0.003985257794563547
+
+----------------------------------
+Epoch 171/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92680832]]
+Error: [[-0.07319168]]
+Delta Output (d_y): [[-0.01032195]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94722462]]
+Error: [[0.05277538]]
+Delta Output (d_y): [[0.00542349]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94735963]]
+Error: [[0.05264037]]
+Delta Output (d_y): [[0.00539615]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.92991845]]
+Error: [[-0.07008155]]
+Delta Output (d_y): [[-0.00947865]]
+----
+Sum Square Error (SSE) epoch ke-171: 0.003956173677764995
+
+----------------------------------
+Epoch 172/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92707758]]
+Error: [[-0.07292242]]
+Delta Output (d_y): [[-0.01024758]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94741774]]
+Error: [[0.05258226]]
+Delta Output (d_y): [[0.0053844]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.9475516]]
+Error: [[0.0524484]]
+Delta Output (d_y): [[0.00535739]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93016736]]
+Error: [[-0.06983264]]
+Delta Output (d_y): [[-0.00941265]]
+----
+Sum Square Error (SSE) epoch ke-172: 0.00392750145215544
+
+----------------------------------
+Epoch 173/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92734398]]
+Error: [[-0.07265602]]
+Delta Output (d_y): [[-0.01017425]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94760882]]
+Error: [[0.05239118]]
+Delta Output (d_y): [[0.00534587]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94774156]]
+Error: [[0.05225844]]
+Delta Output (d_y): [[0.00531917]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93041371]]
+Error: [[-0.06958629]]
+Delta Output (d_y): [[-0.00934755]]
+----
+Sum Square Error (SSE) epoch ke-173: 0.003899232518205791
+
+----------------------------------
+Epoch 174/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92760758]]
+Error: [[-0.07239242]]
+Delta Output (d_y): [[-0.01010194]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94779791]]
+Error: [[0.05220209]]
+Delta Output (d_y): [[0.00530786]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94792954]]
+Error: [[0.05207046]]
+Delta Output (d_y): [[0.00528149]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93065752]]
+Error: [[-0.06934248]]
+Delta Output (d_y): [[-0.00928333]]
+----
+Sum Square Error (SSE) epoch ke-174: 0.0038713585127103803
+
+----------------------------------
+Epoch 175/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92786842]]
+Error: [[-0.07213158]]
+Delta Output (d_y): [[-0.01003063]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94798504]]
+Error: [[0.05201496]]
+Delta Output (d_y): [[0.00527038]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94811557]]
+Error: [[0.05188443]]
+Delta Output (d_y): [[0.00524432]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93089884]]
+Error: [[-0.06910116]]
+Delta Output (d_y): [[-0.00921998]]
+----
+Sum Square Error (SSE) epoch ke-175: 0.003843871300755815
+
+----------------------------------
+Epoch 176/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92812656]]
+Error: [[-0.07187344]]
+Delta Output (d_y): [[-0.0099603]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94817024]]
+Error: [[0.05182976]]
+Delta Output (d_y): [[0.00523342]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94829969]]
+Error: [[0.05170031]]
+Delta Output (d_y): [[0.00520765]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93113772]]
+Error: [[-0.06886228]]
+Delta Output (d_y): [[-0.00915748]]
+----
+Sum Square Error (SSE) epoch ke-176: 0.003816762968014361
+
+----------------------------------
+Epoch 177/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92838203]]
+Error: [[-0.07161797]]
+Delta Output (d_y): [[-0.00989093]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94835354]]
+Error: [[0.05164646]]
+Delta Output (d_y): [[0.00519696]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94848193]]
+Error: [[0.05151807]]
+Delta Output (d_y): [[0.00517149]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.9313742]]
+Error: [[-0.0686258]]
+Delta Output (d_y): [[-0.00909581]]
+----
+Sum Square Error (SSE) epoch ke-177: 0.003790025813346449
+
+----------------------------------
+Epoch 178/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92863489]]
+Error: [[-0.07136511]]
+Delta Output (d_y): [[-0.0098225]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94853497]]
+Error: [[0.05146503]]
+Delta Output (d_y): [[0.00516099]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94866232]]
+Error: [[0.05133768]]
+Delta Output (d_y): [[0.00513581]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93160831]]
+Error: [[-0.06839169]]
+Delta Output (d_y): [[-0.00903495]]
+----
+Sum Square Error (SSE) epoch ke-178: 0.0037636523416981517
+
+----------------------------------
+Epoch 179/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92888517]]
+Error: [[-0.07111483]]
+Delta Output (d_y): [[-0.00975499]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94871457]]
+Error: [[0.05128543]]
+Delta Output (d_y): [[0.0051255]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94884089]]
+Error: [[0.05115911]]
+Delta Output (d_y): [[0.00510061]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.9318401]]
+Error: [[-0.0681599]]
+Delta Output (d_y): [[-0.00897489]]
+----
+Sum Square Error (SSE) epoch ke-179: 0.0037376352572799157
+
+----------------------------------
+Epoch 180/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92913293]]
+Error: [[-0.07086707]]
+Delta Output (d_y): [[-0.00968838]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94889237]]
+Error: [[0.05110763]]
+Delta Output (d_y): [[0.00509049]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94901767]]
+Error: [[0.05098233]]
+Delta Output (d_y): [[0.00506588]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93206959]]
+Error: [[-0.06793041]]
+Delta Output (d_y): [[-0.00891561]]
+----
+Sum Square Error (SSE) epoch ke-180: 0.003711967457013692
+
+----------------------------------
+Epoch 181/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.9293782]]
+Error: [[-0.0706218]]
+Delta Output (d_y): [[-0.00962266]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94906839]]
+Error: [[0.05093161]]
+Delta Output (d_y): [[0.00505594]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94919269]]
+Error: [[0.05080731]]
+Delta Output (d_y): [[0.00503161]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93229684]]
+Error: [[-0.06770316]]
+Delta Output (d_y): [[-0.0088571]]
+----
+Sum Square Error (SSE) epoch ke-181: 0.0036866420242363277
+
+----------------------------------
+Epoch 182/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92962102]]
+Error: [[-0.07037898]]
+Delta Output (d_y): [[-0.0095578]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94924267]]
+Error: [[0.05075733]]
+Delta Output (d_y): [[0.00502185]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94936599]]
+Error: [[0.05063401]]
+Delta Output (d_y): [[0.00499779]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93252187]]
+Error: [[-0.06747813]]
+Delta Output (d_y): [[-0.00879935]]
+----
+Sum Square Error (SSE) epoch ke-182: 0.0036616522226474565
+
+----------------------------------
+Epoch 183/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.92986143]]
+Error: [[-0.07013857]]
+Delta Output (d_y): [[-0.0094938]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94941523]]
+Error: [[0.05058477]]
+Delta Output (d_y): [[0.0049882]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94953758]]
+Error: [[0.05046242]]
+Delta Output (d_y): [[0.00496441]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93274473]]
+Error: [[-0.06725527]]
+Delta Output (d_y): [[-0.00874233]]
+----
+Sum Square Error (SSE) epoch ke-183: 0.0036369914904911
+
+----------------------------------
+Epoch 184/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.93009947]]
+Error: [[-0.06990053]]
+Delta Output (d_y): [[-0.00943063]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.9495861]]
+Error: [[0.0504139]]
+Delta Output (d_y): [[0.00495499]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.9497075]]
+Error: [[0.0502925]]
+Delta Output (d_y): [[0.00493147]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93296544]]
+Error: [[-0.06703456]]
+Delta Output (d_y): [[-0.00868604]]
+----
+Sum Square Error (SSE) epoch ke-184: 0.0036126534349604374
+
+----------------------------------
+Epoch 185/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.93033519]]
+Error: [[-0.06966481]]
+Delta Output (d_y): [[-0.00936828]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94975531]]
+Error: [[0.05024469]]
+Delta Output (d_y): [[0.00492221]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.94987576]]
+Error: [[0.05012424]]
+Delta Output (d_y): [[0.00489894]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93318403]]
+Error: [[-0.06681597]]
+Delta Output (d_y): [[-0.00863046]]
+----
+Sum Square Error (SSE) epoch ke-185: 0.0035886318268157527
+
+----------------------------------
+Epoch 186/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.93056861]]
+Error: [[-0.06943139]]
+Delta Output (d_y): [[-0.00930673]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.94992288]]
+Error: [[0.05007712]]
+Delta Output (d_y): [[0.00488986]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.95004241]]
+Error: [[0.04995759]]
+Delta Output (d_y): [[0.00486684]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93340056]]
+Error: [[-0.06659944]]
+Delta Output (d_y): [[-0.00857557]]
+----
+Sum Square Error (SSE) epoch ke-186: 0.003564920595206427
+
+----------------------------------
+Epoch 187/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.93079978]]
+Error: [[-0.06920022]]
+Delta Output (d_y): [[-0.00924596]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.95008885]]
+Error: [[0.04991115]]
+Delta Output (d_y): [[0.00485791]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.95020746]]
+Error: [[0.04979254]]
+Delta Output (d_y): [[0.00483514]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93361503]]
+Error: [[-0.06638497]]
+Delta Output (d_y): [[-0.00852137]]
+----
+Sum Square Error (SSE) epoch ke-187: 0.0035415138226877084
+
+----------------------------------
+Epoch 188/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.93102872]]
+Error: [[-0.06897128]]
+Delta Output (d_y): [[-0.00918598]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.95025323]]
+Error: [[0.04974677]]
+Delta Output (d_y): [[0.00482637]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.95037094]]
+Error: [[0.04962906]]
+Delta Output (d_y): [[0.00480385]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93382749]]
+Error: [[-0.06617251]]
+Delta Output (d_y): [[-0.00846784]]
+----
+Sum Square Error (SSE) epoch ke-188: 0.0035184057404240333
+
+----------------------------------
+Epoch 189/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.93125548]]
+Error: [[-0.06874452]]
+Delta Output (d_y): [[-0.00912674]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.95041605]]
+Error: [[0.04958395]]
+Delta Output (d_y): [[0.00479523]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.95053287]]
+Error: [[0.04946713]]
+Delta Output (d_y): [[0.00477295]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93403798]]
+Error: [[-0.06596202]]
+Delta Output (d_y): [[-0.00841498]]
+----
+Sum Square Error (SSE) epoch ke-189: 0.00349559072357067
+
+----------------------------------
+Epoch 190/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.93148009]]
+Error: [[-0.06851991]]
+Delta Output (d_y): [[-0.00906826]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.95057733]]
+Error: [[0.04942267]]
+Delta Output (d_y): [[0.00476448]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.95069328]]
+Error: [[0.04930672]]
+Delta Output (d_y): [[0.00474243]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93424651]]
+Error: [[-0.06575349]]
+Delta Output (d_y): [[-0.00836276]]
+----
+Sum Square Error (SSE) epoch ke-190: 0.003473063286826086
+
+----------------------------------
+Epoch 191/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.93170258]]
+Error: [[-0.06829742]]
+Delta Output (d_y): [[-0.0090105]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.9507371]]
+Error: [[0.0492629]]
+Delta Output (d_y): [[0.00473411]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.95085219]]
+Error: [[0.04914781]]
+Delta Output (d_y): [[0.0047123]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93445311]]
+Error: [[-0.06554689]]
+Delta Output (d_y): [[-0.00831117]]
+----
+Sum Square Error (SSE) epoch ke-191: 0.003450818080147716
+
+----------------------------------
+Epoch 192/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.93192299]]
+Error: [[-0.06807701]]
+Delta Output (d_y): [[-0.00895346]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.95089539]]
+Error: [[0.04910461]]
+Delta Output (d_y): [[0.00470412]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.95100962]]
+Error: [[0.04899038]]
+Delta Output (d_y): [[0.00468253]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93465783]]
+Error: [[-0.06534217]]
+Delta Output (d_y): [[-0.00826021]]
+----
+Sum Square Error (SSE) epoch ke-192: 0.0034288498846241373
+
+----------------------------------
+Epoch 193/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.93214134]]
+Error: [[-0.06785866]]
+Delta Output (d_y): [[-0.00889712]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.95105221]]
+Error: [[0.04894779]]
+Delta Output (d_y): [[0.0046745]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.9511656]]
+Error: [[0.0488344]]
+Delta Output (d_y): [[0.00465314]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93486068]]
+Error: [[-0.06513932]]
+Delta Output (d_y): [[-0.00820987]]
+----
+Sum Square Error (SSE) epoch ke-193: 0.0034071536084971906
+
+----------------------------------
+Epoch 194/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.93235767]]
+Error: [[-0.06764233]]
+Delta Output (d_y): [[-0.00884147]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.95120758]]
+Error: [[0.04879242]]
+Delta Output (d_y): [[0.00464524]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.95132015]]
+Error: [[0.04867985]]
+Delta Output (d_y): [[0.0046241]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93506169]]
+Error: [[-0.06493831]]
+Delta Output (d_y): [[-0.00816012]]
+----
+Sum Square Error (SSE) epoch ke-194: 0.0033857242833274827
+
+----------------------------------
+Epoch 195/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.93257201]]
+Error: [[-0.06742799]]
+Delta Output (d_y): [[-0.0087865]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.95136153]]
+Error: [[0.04863847]]
+Delta Output (d_y): [[0.00461634]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.95147328]]
+Error: [[0.04852672]]
+Delta Output (d_y): [[0.00459541]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.9352609]]
+Error: [[-0.0647391]]
+Delta Output (d_y): [[-0.00811097]]
+----
+Sum Square Error (SSE) epoch ke-195: 0.0033645570602976434
+
+----------------------------------
+Epoch 196/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.93278439]]
+Error: [[-0.06721561]]
+Delta Output (d_y): [[-0.0087322]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.95151409]]
+Error: [[0.04848591]]
+Delta Output (d_y): [[0.00458778]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.95162503]]
+Error: [[0.04837497]]
+Delta Output (d_y): [[0.00456707]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93545832]]
+Error: [[-0.06454168]]
+Delta Output (d_y): [[-0.0080624]]
+----
+Sum Square Error (SSE) epoch ke-196: 0.003343647206647215
+
+----------------------------------
+Epoch 197/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.93299483]]
+Error: [[-0.06700517]]
+Delta Output (d_y): [[-0.00867855]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.95166526]]
+Error: [[0.04833474]]
+Delta Output (d_y): [[0.00455957]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.95177541]]
+Error: [[0.04822459]]
+Delta Output (d_y): [[0.00453907]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93565398]]
+Error: [[-0.06434602]]
+Delta Output (d_y): [[-0.0080144]]
+----
+Sum Square Error (SSE) epoch ke-197: 0.0033229901022341093
+
+----------------------------------
+Epoch 198/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.93320338]]
+Error: [[-0.06679662]]
+Delta Output (d_y): [[-0.00862554]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.95181507]]
+Error: [[0.04818493]]
+Delta Output (d_y): [[0.0045317]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.95192444]]
+Error: [[0.04807556]]
+Delta Output (d_y): [[0.0045114]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93584792]]
+Error: [[-0.06415208]]
+Delta Output (d_y): [[-0.00796696]]
+----
+Sum Square Error (SSE) epoch ke-198: 0.0033025812362171606
+
+----------------------------------
+Epoch 199/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.93341005]]
+Error: [[-0.06658995]]
+Delta Output (d_y): [[-0.00857317]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.95196355]]
+Error: [[0.04803645]]
+Delta Output (d_y): [[0.00450416]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.95207214]]
+Error: [[0.04792786]]
+Delta Output (d_y): [[0.00448407]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.93604015]]
+Error: [[-0.06395985]]
+Delta Output (d_y): [[-0.00792007]]
+----
+Sum Square Error (SSE) epoch ke-199: 0.003282416203855028
+
+----------------------------------
+Epoch 200/200
+----------------------------------
+Data ke-1
+----
+Aktivasi Output: [[-0.93361487]]
+Error: [[-0.06638513]]
+Delta Output (d_y): [[-0.00852141]]
+----
+Data ke-2
+----
+Aktivasi Output: [[0.9521107]]
+Error: [[0.0478893]]
+Delta Output (d_y): [[0.00447694]]
+----
+Data ke-3
+----
+Aktivasi Output: [[0.95221853]]
+Error: [[0.04778147]]
+Delta Output (d_y): [[0.00445705]]
+----
+Data ke-4
+----
+Aktivasi Output: [[-0.9362307]]
+Error: [[-0.0637693]]
+Delta Output (d_y): [[-0.00787373]]
+----
+Sum Square Error (SSE) epoch ke-200: 0.0032624907034165497
+
+----------------------------------
+Pelatihan berhenti pada epoch ke-200 karena max epoch tercapai.
 Bobot akhir hidden layer :
-[[1.50627838 1.10139606]
- [1.52909376 1.11136687]]
+[[1.33198818 1.66158873]
+ [1.3346944  1.66668314]]
 Bobot akhir output layer :
-[[ 1.68521181]
- [-1.68988076]]
+[[-2.16074442]
+ [ 2.13643359]]
